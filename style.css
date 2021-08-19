@@ -14,6 +14,10 @@
              box-shadow: 1px 2px 5px #fe2c55, 2px 2px 5px #00bfff !important;
              background-color: #ffe6eb !important;
         }
+		::-webkit-scrollbar-corner {
+			 border-color: #0a0a0a;
+			 background-color: #0a0a0a;
+		}
 html[pc="yes"] *::-webkit-scrollbar-thumb {
     background-color: rgba(255, 255, 255, .15);
 }
@@ -1581,6 +1585,82 @@ a.option.feedback {
 }
 .keyboard-shortcut-container .keyboard-shortcut-content .keyboard-shortcut-content-item {
 	color: #fff !important;
+}
+.push-permission {
+	background: #111 !important;
+}
+.logout-line {
+	background: rgba(216, 211, 232, .12) !important;
+}
+.tiktok-web-header-13pzv .login-title-1Zd0- {
+	color: #fff;
+}
+.tiktok-web-header-13pzv .back-modal-3gZXj, .select-container-2Ubyt:after, .search-3t1_J::after {
+	filter: invert(1) hue-rotate(180deg);
+}
+.title-wrapper-3KgEa, .link-2j8GS:hover, .container-1lSJp, .input-field-3x_mo input, .list-container-2f5zg .list-item-MOAq4 {
+	color: rgba(216, 211, 232);
+}
+.link-2j8GS {
+	color: rgba(216, 211, 232) !important;
+}
+.login-button-31D24.disable-fEJEn {
+	color: rgba(216, 211, 232, .3);
+	background-color: rgba(216, 211, 232, .06);
+}
+.login-button-31D24.line-ErmhG:not(.disabled-11rqp):hover {
+	background: rgba(216, 211, 232, .03);
+	border-color: rgba(216, 211, 232, .2);
+}
+.login-button-31D24.line-ErmhG.disable-fEJEn {
+	background: #111 !important;
+	border-color: rgba(216, 211, 232, .12) !important;
+	color: rgba(216, 211, 232, .34);
+}
+.input-field-pc-FOzso:hover {
+	background-color: rgba(216, 211, 232, .1);
+	border-color: rgba(216, 211, 232, .1);
+}
+.input-field-pc-FOzso {
+	background-color: rgba(216, 211, 232, .06);
+	border-color: rgba(216, 211, 232, .06);
+}
+.list-container-2f5zg {
+	background: #111;
+	border-color: rgba(216, 211, 232, .06);
+}
+.search-3t1_J { 
+	background: #111;
+	border-color: rgba(216, 211, 232, .12);
+}
+.list-container-2f5zg .list-item-MOAq4.selected-1DVFu, .list-container-2f5zg .list-item-MOAq4:hover {
+	background-color: rgba(216, 211, 232, .03);
+}
+.rUVoM, .fiQtnm, .chYkws {
+	background: #111;
+}
+.iIMDNr {
+	color: #ddd;
+}
+.eENrWw {
+	background: #141516;
+	color: #666;
+}
+.hBTOdR {
+    background-color: rgb(29, 70, 50);
+}
+.bujTgx svg path {
+	fill: #535557;
+}
+.gFJfql {
+	color: #ddd;
+	border-color: #383838;
+}
+.bJioLa {
+	color: #a0a0a0;
+}
+.kckJeV svg path[fill="#D8D8D8"] {
+	fill: #383838;
 }
 }
 
