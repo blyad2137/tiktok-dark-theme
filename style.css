@@ -1662,6 +1662,16 @@ a.option.feedback {
 .kckJeV svg path[fill="#D8D8D8"] {
 	fill: #383838;
 }
+.copy-link-container .link-container {
+	background-color: rgba(216, 211, 232, .06) !important;
+}
+.suggested-accounts .header {
+	color: rgba(216, 211, 232, .75);
+}
+.suggested-accounts .list-container .user-item {
+	background-color: #111;
+	border-color: rgba(216, 211, 232, .12);
+}
 }
 
 @-moz-document domain("careers.tiktok.com") {
