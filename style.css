@@ -1665,7 +1665,7 @@ a.option.feedback {
 .copy-link-container .link-container {
 	background-color: rgba(216, 211, 232, .06) !important;
 }
-.suggested-accounts .header, .tiktok-1y2yo26-StrongText, .tiktok-ybf3r7-DivInputAreaContainer .public-DraftEditorPlaceholder-root, .tiktok-7k173h-H2CountInfos, .tiktok-19wx3r9-DivHeader, .tiktok-nch9w9-SpanNickname {
+.suggested-accounts .header, .tiktok-1y2yo26-StrongText, .tiktok-ybf3r7-DivInputAreaContainer .public-DraftEditorPlaceholder-root, .tiktok-7k173h-H2CountInfos, .tiktok-19wx3r9-DivHeader, .tiktok-nch9w9-SpanNickname, .tiktok-1ehk2x4-H4InboxTitle {
 	color: rgba(216, 211, 232, .75);
 }
 .tiktok-1n85168-SpanUserStatsDesc {
@@ -1676,22 +1676,23 @@ a.option.feedback {
 	border-color: rgba(216, 211, 232, .12);
 }
 .tiktok-12azhi0-DivHeaderContainer {
-	background-color: #111;
+	background-color: #111111b8;
+	backdrop-filter: blur(1rem);
 	box-shadow: 0px 1px 1px #4cbbb933;
 }
 .tiktok-4jy5wt-DivScrollBarThumb, .tiktok-ouggfm-SpanIconWrapper, .tiktok-q3e59-PCopyLinkText, .tiktok-yfmapq-SpanIconWrapper, .tiktok-1vwgyq9-DivInputAreaContainer, .tiktok-1jxhpnd-DivContainer {
 	background-color: rgba(216, 211, 232, .06);
 }
-.tiktok-1cc8sge-H2MainNavText, .tiktok-arsb3q-H4UserTitle, .tiktok-vjisbg-H2RecommendTitle, .tiktok-iyi993-ButtonCopyLink, .tiktok-ybf3r7-DivInputAreaContainer, .tiktok-1pf8c1-DivTab {
+.tiktok-1cc8sge-H2MainNavText, .tiktok-arsb3q-H4UserTitle, .tiktok-vjisbg-H2RecommendTitle, .tiktok-iyi993-ButtonCopyLink, .tiktok-ybf3r7-DivInputAreaContainer, .tiktok-1pf8c1-DivTab, .tiktok-dehclc-DivKeyboardShortcutTitle, .tiktok-7799n-DivGroupContainer {
 	color: rgb(216, 211, 232);
 }
 .tiktok-px0n0u-StyledUserName {
 	color: rgb(216, 211, 232) !important;
 }
-.tiktok-vnenbs-DivProfileContainer, .tiktok-jcprrh-Button-StyledFollowButton, .tiktok-7t2h2f-DivBrowserModeContainer, .tiktok-5xuix8-Button-StyledFollowButton, .tiktok-1xjmtjf-DivBottomCommentContainer {
+.tiktok-vnenbs-DivProfileContainer, .tiktok-jcprrh-Button-StyledFollowButton, .tiktok-7t2h2f-DivBrowserModeContainer, .tiktok-5xuix8-Button-StyledFollowButton, .tiktok-1xjmtjf-DivBottomCommentContainer, .tiktok-230my5-Button, .tiktok-1t1sirr-DivHeaderInboxWrapper {
 	background-color: #111;
 }
-.tiktok-kwqs83-DivUserLinkContainer:hover, .tiktok-ajitim-StyledTmpLink:hover, .tiktok-1lxuf7e-DivUserContainer:hover, .tiktok-1fxyaub-DivActionContainer:hover {
+.tiktok-kwqs83-DivUserLinkContainer:hover, .tiktok-ajitim-StyledTmpLink:hover, .tiktok-1lxuf7e-DivUserContainer:hover, .tiktok-1fxyaub-DivActionContainer:hover, .tiktok-1itjm7y-AShareLink:hover {
 	background-color: rgba(216, 211, 232, .03);
 }
 .tiktok-1lh5noh-DivVideoCardContainer {
@@ -1739,7 +1740,7 @@ svg.tiktok-812w79-SvgIcon.e1wg6xq71, svg.tiktok-wzk98w-SvgIcon.e1wg6xq71 {
 .tiktok-ipgxp-ABioLink:hover, .tiktok-ipgxp-ABioLink:active, .tiktok-ipgxp-ABioLink:link svg path {
 	fill: #fff;
 }
-.tiktok-1ffceuc-DivAccountListModal, .tiktok-9o3213-Button-StyledFollowButton {
+.tiktok-1ffceuc-DivAccountListModal, .tiktok-9o3213-Button-StyledFollowButton, .tiktok-1ybns2k-Button-StyledMessageButton {
 	background-color: #111;
 }
 .tiktok-1dd95r0-DivTab {
@@ -1769,6 +1770,36 @@ svg.tiktok-812w79-SvgIcon.e1wg6xq71, svg.tiktok-wzk98w-SvgIcon.e1wg6xq71 {
 .tiktok-nxe62-DivBaseComponent-StyledButton, .tiktok-1xxodjj-DivBaseComponent-StyledTitle, .tiktok-1jfrc7x-DivBaseComponent-StyledAvatar {
 	background-color: #121212;
 	background-image: linear-gradient(90deg, rgba(216, 211, 232, .0) 0%, rgba(216, 211, 232, .04) 50%, rgba(216, 211, 232, .0) 100%);
+}
+.tiktok-w22vrq-DivKeyboardShortcutContainer {
+	background-color: #111;
+	border-color: rgba(216, 211, 232, .12);
+}
+.tiktok-drf9az-DivKeyboardShortcutContentItem {
+	color: #fff;
+	border-color: rgba(216, 211, 232, .12);
+}
+.result-item-skeleton .avatar {
+	background-color: #121212;
+}
+.tiktok-qqf9ie-Button-StyledFollowButton, .tiktok-1dmp68j-Button {
+    color: rgba(216, 211, 232);
+    border-color: rgba(216, 211, 232, .12);
+    background-color: #111;
+}
+.tiktok-qqf9ie-Button-StyledFollowButton:hover, .tiktok-1dmp68j-Button:hover {
+    border-color: #303133;
+    background-color: #181818;
+}
+.tiktok-19rc7g6-SpanGroupItem {
+	background-color: rgba(216, 211, 232);
+	color: #111;
+}
+.tiktok-1tsu1xm-SpanGroupItem {
+	background-color: #121212;
+}
+.tiktok-1tsu1xm-SpanGroupItem:hover {
+    background: rgba(255, 255, 255, .12);
 }
 }
 
