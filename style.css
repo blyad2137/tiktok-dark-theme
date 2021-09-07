@@ -1801,6 +1801,36 @@ svg.tiktok-812w79-SvgIcon.e1wg6xq71, svg.tiktok-wzk98w-SvgIcon.e1wg6xq71 {
 .tiktok-1tsu1xm-SpanGroupItem:hover {
     background: rgba(255, 255, 255, .12);
 }
+.tiktok-thiumz-DivSearchFormContainer div:not(.tiktok-coj13k-DivIconWrapper) {
+	background-color: #111;
+	color: rgba(216, 211, 232);
+}
+[data-theme="default"] .live-profile-banner, [data-theme="default"] .webcast-chatroom, [data-theme="default"] .webcast-chatroom__comment-wrap, [data-theme="default"] .live-profile-banner .tool i {
+	background-color: #111;
+}
+[data-theme="default"] .webcast-chatroom-header {
+	color: #fff;
+	border-color: rgba(255, 255, 255, .2);
+}
+[data-theme="default"] .webcast-chatroom .message-icon-wrapper {
+	background-color: #121313;
+	color: #fff;
+}
+[data-theme="default"] .webcast-chatroom .content, [data-theme="default"] .webcast-chatroom__member-message .nickname, [data-theme="default"] .webcast-chatroom__chat-message .nickname, [data-theme="default"] .webcast-chatroom__gift-message .nickname, [data-theme="default"] .webcast-chatroom__social-message .nickname, [data-theme="default"] .webcast-chatroom__like-message .nickname, .gift-item {
+	color: rgba(216, 211, 232);
+}
+[data-theme="default"] .webcast-chatroom__member-message .nickname {
+	color: rgba(216, 211, 232, .5);
+}
+.coin-container {
+	color: rgba(216, 211, 232, .75);
+}
+[data-theme="default"] .live-profile-banner .user-info .user-uniqueId, [data-theme="default"] .live-profile-banner .tool i {
+	color: #fff;
+}
+.recommend-video .recommend-video-bottom .recommend-video-bottom-des-des1, .webcast-chatroom .nickname {
+	font-family: 'Encode Sans', arial, sans-serif;
+}
 }
 
 @-moz-document domain("careers.tiktok.com") {
