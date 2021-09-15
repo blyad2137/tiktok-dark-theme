@@ -1831,6 +1831,19 @@ svg.tiktok-812w79-SvgIcon.e1wg6xq71, svg.tiktok-wzk98w-SvgIcon.e1wg6xq71 {
 .recommend-video .recommend-video-bottom .recommend-video-bottom-des-des1, .webcast-chatroom .nickname {
 	font-family: 'Encode Sans', arial, sans-serif;
 }
+[src="https://sf16-scmcdn-va.ibytedtos.com/goofy/tiktok/web/node/_next/static/images/upload-icon-black-9fab4d0388a6d2c6f39a1f79b246f55f.svg"] {
+	filter: invert(1) hue-rotate(180deg);
+}
+.desktop-container, .tiktok-12pi4sa-DivBannerContainer, .tiktok-jn1y4y-DivScrollContainer-StyledScroll {
+	background-color: #111;
+}
+.tiktok-dqnt8f-DivCommentListContainer {
+	background-color: #111;
+	border-color: rgba(255, 255, 255, .12);
+}
+[src="https://sf16-muse-va.ibytedtos.com/obj/tiktok-webapp-us/pns/icon-privacy-policy-update.svg"] {
+	filter: invert(1) hue-rotate(180deg);
+}
 }
 
 @-moz-document domain("careers.tiktok.com") {
