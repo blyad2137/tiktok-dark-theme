@@ -1,9 +1,10 @@
 /* ==UserStyle==
 @name           TikTok Dark Theme
 @namespace      github.com/blyad2137/tiktok-dark-theme
-@version        2.0.9
+@version        2.1.0
 @description    A Dark Theme for TikTok
 @author         blyad (https://github.com/blyad2137)
+@license        CC BY-SA 4.0
 @homepageURL    https://github.com/blyad2137/tiktok-dark-theme
 @supportURL     https://github.com/blyad2137/tiktok-dark-theme/issues
 @updateURL      https://userstyles.world/api/style/251.user.css
@@ -74,7 +75,7 @@ h1.video-meta-title, a {
 .action-left .action-wrapper-v2 .icons.like, .action-left .action-wrapper-v2 .icons.comment, .tiktok-app-container-12zKy .tiktok-logo-2--Q2NK, .like-container .icon, .comment-input-inner-wrapper .editor .at-icon, .comment-input-inner-wrapper .editor .emoji-container {
 	filter: invert(1) hue-rotate(180deg);
 }
-.logo-container .logo-text, .logo-container-drawer .logo-text, .logo-container .logo-icon, .logo-container-drawer .logo-icon, [src='https://sf16-scmcdn-va.ibytedtos.com/goofy/tiktok/web/node/_next/static/images/logo-whole-c555aa707602e714ec956ac96e9db366.svg'], [src="./static/img/tiktok_nav_logo_black.png"] {
+.logo-container .logo-text, .logo-container-drawer .logo-text, .logo-container .logo-icon, .logo-container-drawer .logo-icon, [src='https://sf16-scmcdn-va.ibytedtos.com/goofy/tiktok/web/node/_next/static/images/logo-whole-c555aa707602e714ec956ac96e9db366.svg'], [src="./static/img/tiktok_nav_logo_black.png"], [src="https://lf16-tiktok-web.ibytedtos.com/obj/tiktok-web-us/tiktok/web/node/_next/static/images/logo-whole-c555aa707602e714ec956ac96e9db366.svg"] {
 	filter: invert(1) hue-rotate(180deg) saturate(120%);
 }
 body {
@@ -1827,7 +1828,7 @@ svg.tiktok-812w79-SvgIcon.e1wg6xq71, svg.tiktok-wzk98w-SvgIcon.e1wg6xq71 {
 	background-color: #121313;
 	color: #fff;
 }
-[data-theme="default"] .webcast-chatroom .content, [data-theme="default"] .webcast-chatroom__member-message .nickname, [data-theme="default"] .webcast-chatroom__chat-message .nickname, [data-theme="default"] .webcast-chatroom__gift-message .nickname, [data-theme="default"] .webcast-chatroom__social-message .nickname, [data-theme="default"] .webcast-chatroom__like-message .nickname, .gift-item, .tiktok-1llvn2i-DivTab, .tiktok-1ek2nds-H2Title, .tiktok-1av3vif-DivSubTitleWrapper strong, .tiktok-1av3vif-DivSubTitleWrapper > span {
+[data-theme="default"] .webcast-chatroom .content, [data-theme="default"] .webcast-chatroom__member-message .nickname, [data-theme="default"] .webcast-chatroom__chat-message .nickname, [data-theme="default"] .webcast-chatroom__gift-message .nickname, [data-theme="default"] .webcast-chatroom__social-message .nickname, [data-theme="default"] .webcast-chatroom__like-message .nickname, .gift-item, .tiktok-1llvn2i-DivTab, .tiktok-1ek2nds-H2Title, .tiktok-1av3vif-DivSubTitleWrapper strong, .tiktok-1av3vif-DivSubTitleWrapper > span, .tiktok-select .tiktok-select-selector .tiktok-select-selector-text-checked {
 	color: rgb(216, 211, 232);
 }
 .tiktok-1v1eqb4-PTitle, .tiktok-2zn17v-PUniqueId {
@@ -1848,17 +1849,17 @@ svg.tiktok-812w79-SvgIcon.e1wg6xq71, svg.tiktok-wzk98w-SvgIcon.e1wg6xq71 {
 .recommend-video .recommend-video-bottom .recommend-video-bottom-des-des1, .webcast-chatroom .nickname {
 	font-family: 'Encode Sans', arial, sans-serif;
 }
-[src="https://sf16-scmcdn-va.ibytedtos.com/goofy/tiktok/web/node/_next/static/images/upload-icon-black-9fab4d0388a6d2c6f39a1f79b246f55f.svg"], [src="./static/img/1233_default.png"] {
+[src="https://sf16-scmcdn-va.ibytedtos.com/goofy/tiktok/web/node/_next/static/images/upload-icon-black-9fab4d0388a6d2c6f39a1f79b246f55f.svg"], [src="./static/img/1233_default.png"], [src="https://lf16-tiktok-web.ibytedtos.com/obj/tiktok-web-us/tiktok/web/node/_next/static/images/at-e6af58d8bb2f7b922636edfb09c5d65c.svg"], [src="https://lf16-tiktok-web.ibytedtos.com/obj/tiktok-web-us/tiktok/web/node/_next/static/images/hashtag-bb2d9e1eaf7b50e3752a07702f3bac84.svg"], [src="https://lf16-tiktok-web.ibytedtos.com/obj/tiktok-web-us/tiktok/web/node/_next/static/images/upload-icon-black-9fab4d0388a6d2c6f39a1f79b246f55f.svg"] {
 	filter: invert(1) hue-rotate(180deg);
 }
-.desktop-container, .tiktok-12pi4sa-DivBannerContainer, .tiktok-jn1y4y-DivScrollContainer-StyledScroll, .tiktok-1eas1gm-DivScrollContainer-StyledScroll {
+.tiktok-12pi4sa-DivBannerContainer, .tiktok-jn1y4y-DivScrollContainer-StyledScroll, .tiktok-1eas1gm-DivScrollContainer-StyledScroll {
 	background-color: #111;
 }
 .tiktok-dqnt8f-DivCommentListContainer {
 	background-color: #111;
 	border-color: rgba(255, 255, 255, .12);
 }
-[src="https://sf16-muse-va.ibytedtos.com/obj/tiktok-webapp-us/pns/icon-privacy-policy-update.svg"] {
+[src="https://sf16-muse-va.ibytedtos.com/obj/tiktok-webapp-us/pns/icon-privacy-policy-update.svg"], [src="https://lf16-tiktok-web.ibytedtos.com/obj/tiktok-web-us/tiktok/web/node/_next/static/images/cloud-icon1-fc11622525d374d4b883d3eb35dd50af.svg"], [src="https://lf16-tiktok-web.ibytedtos.com/obj/tiktok-web-us/tiktok/web/node/_next/static/images/search-068dae7e74e59a09df76a49fc567abd2.svg"], [src="https://lf16-tiktok-web.ibytedtos.com/obj/tiktok-web-us/tiktok/web/node/_next/static/images/close-7cc512e95d25ad74c6fc00d66f9185fd.svg"], [src="https://lf16-tiktok-web.ibytedtos.com/obj/tiktok-web-us/tiktok/web/node/_next/static/images/check_icon-de2653c0a69cd5eff8ed306263ecd7c4.svg"] {
 	filter: invert(1) hue-rotate(180deg);
 }
 .open_anyway_btn {
@@ -1876,6 +1877,85 @@ a.duet-with {
 	background-color: rgb(216, 211, 232);
 }
 .tiktok-133zmie-DivLink:hover {
+	background-color: #181818;
+}
+.tiktok-web-header-13pzv {
+	background-color: #111;
+	color: #111;
+}
+.toggle-2SAdO {
+	border-top-color: rgba(255, 255, 255, .12);
+}
+.layout-bg {
+	background-color: #181818 !important;
+}
+.container-v2, .preview-v2 {
+	background-color: #111 !important;
+}
+.title-v2, .before-upload-stage .text-main, .change-video-btn .btn {
+	color: rgb(216, 211, 232) !important;
+}
+.before-upload-stage:hover {
+	background-color: rgba(216, 211, 232, .03) !important;
+}
+.upload-card {
+	border-color: rgba(216, 211, 232, .2) !important;
+}
+.upload-card:hover {
+	border-color: rgb(254, 44, 85) !important;
+}
+.before-upload-stage .text-sub, .change-video-btn .file, .uploading-stage-text {
+	color: rgba(216, 211, 232, .75) !important;
+}
+.before-upload-stage .text-video-info {
+	color: rgba(216, 211, 232, .5) !important;
+}
+.container-v2 {
+	border-color: rgba(216, 211, 232, .12) !important;
+}
+.tiktok-select-selector, .change-video-btn {
+	background-color: #111 !important;
+	border-color: rgba(216, 211, 232, .12) !important;
+}
+.tiktok-select-dropdown, .tiktok-switch .tiktok-switch__switch-wrapper .tiktok-switch__switch-inner {
+	background-color: #111;
+}
+.tiktok-select-dropdown .tiktok-select-dropdown-item.is-selected {
+    background-color: rgba(216, 211, 232, .06) !important;
+}
+.tiktok-select-dropdown .tiktok-select-dropdown-item {
+	background-color: #111;
+	color: rgb(216, 211, 232);
+}
+.switch-wrap .switch-text {
+	color: #fff;
+}
+.copyright .default, .copyright .tool-tip, .tiktok-progress .tiktok-progress-inner {
+	color: rgba(216, 211, 232, .75);
+}
+.copyright .learn-more {
+	color: rgb(216, 211, 232);
+}
+.tiktok-switch .tiktok-switch__switch-wrapper:hover {
+    background-color: rgba(216, 211, 232, .16);
+}
+.tiktok-switch .tiktok-switch__switch-wrapper {
+	background-color: rgba(216, 211, 232, .12);
+}
+.tiktok-progress .tiktok-progress-background {
+	stroke: rgba(216, 211, 232, .2);
+}
+.chosen-v2 {
+	border-color: #111 !important;
+	box-shadow: rgba(82, 221, 219, .2) 2px 4px 20px !important;
+}
+.tiktok-select-dropdown .tiktok-select-dropdown-item:hover {
+	background-color: rgba(216, 211, 232, .03);
+}
+.desktop-container[id="main"] {
+	background-color: #111;
+}
+.desktop-container.full-container {
 	background-color: #181818;
 }
 }
