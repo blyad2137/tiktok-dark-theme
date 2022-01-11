@@ -17,7 +17,7 @@ Zgwałcony pan TikTak (:
       <ul>You are free to:
         <li>Share — copy and redistribute the material in any medium or format.</li>
         <li>Adapt — remix, transform, and build upon the material
-            for any purpose, even commercially.</li>
+            for any purpose.</li>
       </ul>
       <ul>Under the following terms:
         <li>Attribution — You must give <a href="#" title="You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.">appropriate credit</a>, provide a link to the license, and <a href="#" title="In 4.0, you must indicate if you modified the material and retain an indication of previous modifications. In 3.0 and earlier license versions, the indication of changes is only required if you create a derivative.">indicate if changes were made</a>. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.</li>
