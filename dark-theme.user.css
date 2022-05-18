@@ -1,8 +1,8 @@
 /* ==UserStyle==
 @name           TikTok Dark Theme
 @namespace      github.com/blyad2137/tiktok-dark-theme
-@version        2.1.1
-@description    A Dark Theme for TikTok
+@version        2.2.0
+@description    `A Dark Theme for TikTok`
 @author         blyad (https://github.com/blyad2137)
 @license        CC BY-NC-SA 4.0
 @homepageURL    https://github.com/blyad2137/tiktok-dark-theme
@@ -10,7 +10,7 @@
 @updateURL      https://userstyles.world/api/style/251.user.css
 ==/UserStyle== */
 
-		@-moz-document domain("tiktok.com") {
+@-moz-document domain("tiktok.com") {
 		::-webkit-scrollbar-track {
 				 -webkit-box-shadow: inset 0 0 0px rgba(0, 0, 0, 0.3);
 				 border-radius: 3px !important;
@@ -43,12 +43,12 @@
 		font-family: 'Encode Sans', arial, sans-serif !important;
 	}
 	.video-card-big {
-		background: #111 !important;
+		background-color: #111 !important;
 	}
 	.profile-tip-content {
-		background: #111 !important;
+		background-color: #111 !important;
 	}
-	.user-info, .logout-container .sign-up, .user-info, .tiktok-web-login-2P7wd, .social-container-NE2xk .channel-item-wrapper-2gBWB .channel-name-2qzLW, .footer-wrapper-xil5O .to-login-1hkoq, .nav-item .nav-name, .user-item-inner .fake-info .user-title, .user-item-inner .user-infos .user-title, .user-item-inner .fake-info .user-desc, .user-item-inner .user-infos .user-desc, .video-feed-container .recommend-feed-title, .share-pc-card .share-item-wrapper .plat-text, .inbox-empty h4, .promotion-download .promotion-title, .promotion-download .qr-title, .download-sms .download-tips.modal-download-style a, .area-list-container .area-list-title, .area-list-container .list-item, .button, .container .user-info .name, .modal-title, .stage-2-text, .info-wrapper .sub-title strong, .info-wrapper .sub-title > span, .info-wrapper .desc, ._card_header_content, .count-infos .number strong, .row-layout-nav .row-layout-nav-item span, .setting-option, .modal.confirm .btns .modal-btn-confirm, .keyboard-shortcut-container .keyboard-shortcut-title {
+.user-info, .logout-container .sign-up, .user-info, .tiktok-web-login-2P7wd, .social-container-NE2xk .channel-item-wrapper-2gBWB .channel-name-2qzLW, .footer-wrapper-xil5O .to-login-1hkoq, .nav-item .nav-name, .user-item-inner .fake-info .user-title, .user-item-inner .user-infos .user-title, .user-item-inner .fake-info .user-desc, .user-item-inner .user-infos .user-desc, .video-feed-container .recommend-feed-title, .share-pc-card .share-item-wrapper .plat-text, .inbox-empty h4, .promotion-download .promotion-title, .promotion-download .qr-title, .download-sms .download-tips.modal-download-style a, .area-list-container .area-list-title, .area-list-container .list-item, .button, .container .user-info .name, .modal-title, .stage-2-text, .info-wrapper .sub-title strong, .info-wrapper .sub-title > span, .info-wrapper .desc, ._card_header_content, .count-infos .number strong, .row-layout-nav .row-layout-nav-item span, .setting-option, .modal.confirm .btns .modal-btn-confirm, .keyboard-shortcut-container .keyboard-shortcut-title, [data-e2e="videos-tab"] {
 		color: #d8d3e8 !important;
 	}
 	svg.icon-expand {
@@ -57,7 +57,7 @@
 	[stroke="#161823"] {
 		stroke: #d8d3e8;
 	}
-	.notification-item .content h4, .download-container.from-fixed-config .download-text, .card-text .card-title, .webcast-chatroom__chat-message .content, .webcast-chatroom .content, .keywords-discover .expansion-header .expansion-desc, .keywords-discover .expansion-header .expansion-sub-title, .tiktok-j4yos-MainNavText, .live-sdk-recommend-title, .item-channel-status, .tiktok-12pyqu8-InputAreaContainer, .tiktok-ahw48e-CopyLinkButton, .tiktok-xxcdts-MainNavText, .tiktok-sbfeby-UserTitle, .tiktok-s5eytl-MainNavText, .tiktok-1pip1fn-UserTitle, .tiktok-srunrb-InboxTitle, .tiktok-1vtqvv4-GroupContainer, .tiktok-1h70wiv-PrimarySpan, ._embed_video_banner-title, .tiktok-123e688-H4FormTitle, .tiktok-1yaxz07-DivPushPermissionSubtitle, .tiktok-17utd9q-MainNavText, .tiktok-155cg40-UserTitle, .tiktok-2keecr-InboxTitle, .tiktok-1dt4vtz-GroupContainer {
+	.notification-item .content h4, .download-container.from-fixed-config .download-text, .card-text .card-title, .webcast-chatroom__chat-message .content, .webcast-chatroom .content, .keywords-discover .expansion-header .expansion-desc, .keywords-discover .expansion-header .expansion-sub-title, .tiktok-j4yos-MainNavText, .live-sdk-recommend-title, .item-channel-status, .tiktok-12pyqu8-InputAreaContainer, .tiktok-ahw48e-CopyLinkButton, .tiktok-xxcdts-MainNavText, .tiktok-sbfeby-UserTitle, .tiktok-s5eytl-MainNavText, .tiktok-1pip1fn-UserTitle, .tiktok-srunrb-InboxTitle, .tiktok-1vtqvv4-GroupContainer, .tiktok-1h70wiv-PrimarySpan, ._embed_video_banner-title, .tiktok-123e688-H4FormTitle, .tiktok-1yaxz07-DivPushPermissionSubtitle, .tiktok-17utd9q-MainNavText, .tiktok-155cg40-UserTitle, .tiktok-2keecr-InboxTitle, .tiktok-1dt4vtz-GroupContainer, [data-e2e="comment-modal-delete"] {
 		color: #d8d3e8;
 	}
 	[fill="rgba(22, 24, 35, 1.0)"] {
@@ -88,16 +88,16 @@
 	.logout-container .desc, .share-container .share-word, .copy-link-container .link-container, .follower-like-container .text, .side-bar .user-list-header, .comment-input-inner-wrapper .editor .public-DraftEditorPlaceholder-root, .engagement-text-v23, .inbox-empty p, .detail-board .content-container .content, .info-wrapper .sub-title h2, .info-wrapper .sub-title strong span, .info-wrapper .sub-title > span span, .info-wrapper .sub-title, .side-bar .discover-list-container .discover-title, .discover-list .discover-item-container .item-text, .tiktok-ddvky8-PText, .em-follow.side-bar-container .user-item-inner .user-desc, .em-follow.side-bar-container .user-list-inner-container .user-item-container .item-text {
 		color: rgba(216, 211, 232, .75) !important;
 	}
-	.css-a7myr3, .tiktok-f0k3et-UserStatsDesc, .tiktok-99xamg-UserContainer, .tiktok-10100fy-ActionItemText, .item-channel-name-name2, .live-sdk-suggest-title, .tiktok-12pyqu8-InputAreaContainer .public-DraftEditorPlaceholder-root, .tiktok-1job2nj-UserContainer, .tiktok-wvlkig-UserTitleV3, .tiktok-1a8f9lm-UserContainer, .tiktok-6j2ed1-ErrorMessage, .item-channel-name-nickname, .embed-popup .comments>.lite {
+	.css-a7myr3, .tiktok-f0k3et-UserStatsDesc, .tiktok-99xamg-UserContainer, .tiktok-10100fy-ActionItemText, .item-channel-name-name2, .live-sdk-suggest-title, .tiktok-12pyqu8-InputAreaContainer .public-DraftEditorPlaceholder-root, .tiktok-1job2nj-UserContainer, .tiktok-wvlkig-UserTitleV3, .tiktok-1a8f9lm-UserContainer, .tiktok-6j2ed1-ErrorMessage, .item-channel-name-nickname, .embed-popup .comments>.lite, [data-e2e="following-accounts"], [data-e2e="suggest-user-desc"], [data-e2e="suggest-accounts"], [class*="PText"] {
 		color: rgba(216, 211, 232, .75);
 	}
-	.login-desc-32c-y, .side-bar .login-wrapper span, .side-bar .bottom-wrapper .copyright, .side-bar .bottom-wrapper .more-word, .side-bar .bottom-wrapper a, .side-bar .bottom-wrapper, .side-bar.jsx-3444054962 .bottom-wrapper.jsx-3444054962, .sub-title-ENYux, .comment-text .bottom-container .reply, .like-container .count, ::placeholder, .side-bar .user-empty, .inbox .time-title, .download-sms .download-tips.modal-download-style, .area-list-container .list-item .item-area-code, .require-font, .container .user-info .user-id, .size-text, .modal-sub-title, .more, p, .select-container.jsx-255332196 .select-options-container .select-option .sub-label, ._user_carousel_sub-title, ._user_carousel_followers-text, .live-profile-banner .user-info b, .setting-subtitle, .setting-description, .modal.confirm .btns .modal-btn-cancel, .conversation-main .time-container {
+	.login-desc-32c-y, .side-bar .login-wrapper span, .side-bar .bottom-wrapper .copyright, .side-bar .bottom-wrapper .more-word, .side-bar .bottom-wrapper a, .side-bar .bottom-wrapper, .side-bar.jsx-3444054962 .bottom-wrapper.jsx-3444054962, .sub-title-ENYux, .comment-text .bottom-container .reply, .like-container .count, ::placeholder, .side-bar .user-empty, .inbox .time-title, .download-sms .download-tips.modal-download-style, .area-list-container .list-item .item-area-code, .require-font, .container .user-info .user-id, .size-text, .modal-sub-title, .more, p:not([data-e2e="comment-level-1"]):not([class*="PCommentTitle"]):not([data-e2e="suggest-see-all"]):not([class*="PVideoListTitle"]):not([data-e2e]):not([class*="PShowMoreText"]):not([class*="PText"]), .select-container.jsx-255332196 .select-options-container .select-option .sub-label, ._user_carousel_sub-title, ._user_carousel_followers-text, .live-profile-banner .user-info b, .setting-subtitle, .setting-description, .modal.confirm .btns .modal-btn-cancel, .conversation-main .time-container {
 		color: rgba(216, 211, 232, .5) !important;
 	}
 	.stage-1 .text-main, .stage-1 .text-sub, .privacy-settings-container .hint {
 		color: rgba(216, 211, 232, .34) !important;
 	}
-	.notification-item .content p, .feedback-header .breadcrumb-container, .feedback-header .breadcrumb-container .crumb, .upload-file-container .img-number, .webcast-chatroom .nickname, .tiktok-gg763p-InputArea, .tiktok-1atzwbv-SpanMoreText, .tiktok-x58tdz-Copyright, .tiktok-1atzwbv-SpanMoreText:hover, .tiktok-1atzwbv-SpanMoreText:active, .tiktok-1atzwbv-SpanMoreText:link, .tiktok-x58tdz-Copyright:hover, .tiktok-x58tdz-Copyright:active, .tiktok-x58tdz-Copyright:link, .tiktok-t4fbi8-DivLikeWrapper, .tiktok-tolgk6-SpanItemText, .tiktok-fpiuh-InputArea {
+	.notification-item .content p, .feedback-header .breadcrumb-container, .feedback-header .breadcrumb-container .crumb, .upload-file-container .img-number, .webcast-chatroom .nickname, .tiktok-gg763p-InputArea, .tiktok-1atzwbv-SpanMoreText, .tiktok-x58tdz-Copyright, .tiktok-1atzwbv-SpanMoreText:hover, .tiktok-1atzwbv-SpanMoreText:active, .tiktok-1atzwbv-SpanMoreText:link, .tiktok-x58tdz-Copyright:hover, .tiktok-x58tdz-Copyright:active, .tiktok-x58tdz-Copyright:link, .tiktok-t4fbi8-DivLikeWrapper, .tiktok-tolgk6-SpanItemText, .tiktok-fpiuh-InputArea, [data-e2e="search-load-more"], [data-e2e="comment-modal-cancel"] {
 		color: rgba(216, 211, 232, .5);
 	}
 	.live-profile-banner .user-info h1 {
@@ -117,55 +117,59 @@
 		border-color: rgba(226, 226, 226, .12) !important;
 	}
 	.profile-card-container {
-		background: #111 !important;
+		background-color: #111 !important;
 		filter: drop-shadow(#ffffff29 0px 4px 16px) !important;
 	}
 	.signature {
 		border-color: rgba(216, 211, 232, .2) !important;
 	}
 	.header-container, .tiktok-lg9f76-DivTabsContainer {
-		background: #111111b8 !important;
+		background-color: #111111b8 !important;
 		border-color: #4cbbb933 !important;
 		backdrop-filter: blur(1rem);
 	}
 	.css-1ygqzkf {
-		background: #111;
+		background-color: #111;
 		box-shadow: 0px 1px 0px #2a2a2b
 	}
 	body {
 		background-color: #111;
 	}
+	[data-e2e="comment-delete-modal"] {
+		background-color: #111;
+		border-radius: 5px;
+	}
 	.search-input {
-		background: rgba(216, 211, 232, .06) !important;
+		background-color: rgba(216, 211, 232, .06) !important;
 	}
 	button.search-button-container > svg {
 		fill: rgba(216, 211, 232, .34) !important;
 	}
 	.search-input .search-button-container:active, .scroll-container .scroll-bar .scroll-bar-thumb {
-		background: rgba(216, 211, 232, .06) !important;
+		background-color: rgba(216, 211, 232, .06) !important;
 	}
 	.search-input .search-button-container:hover {
-		background: rgba(216, 211, 232, .03) !important;
+		background-color: rgba(216, 211, 232, .03) !important;
 	}
 	input {
-		background: #111;
+		background-color: #111;
 		color: #fff;
 		border-color: rgba(216, 211, 232, .12);
 	}
-	.search-input .split, .profile-tip-content hr {
-		background: rgba(216, 211, 232, .12) !important;
+	.search-input .split, .profile-tip-content hr, [data-e2e="comment-modal-delete"]::before, [data-e2e="comment-modal-delete"]::after {
+		background-color: rgba(216, 211, 232, .12) !important;
 	}
-	.social-container-NE2xk .channel-item-wrapper-2gBWB {
+.social-container-NE2xk .channel-item-wrapper-2gBWB {
 		border-color: rgba(216, 211, 232, .12);
 	}
 	.row-layout-content::after {
-		background: rgba(216, 211, 232, .2) !important;
+		background-color: rgba(216, 211, 232, .2) !important;
 	}
 	.search-input .border {
 		border-color: #d8d3e833 !important;
 	}
 	.tiktok-tooltip.white .tiktok-tooltip-inner {
-		background: #111;
+		background-color: #111;
 		color: #fff;
 	}
 	.tiktok-tooltip.white .tiktok-tooltip-arrow, .emojiSelectButton, .emojiSelectButtonPressed {
@@ -176,16 +180,16 @@
 		background: inherit !important;
 	}
 	.emojiSelectPopoverEntryFocused  {
-		background: #2f2f2f;
+		background-color: #2f2f2f;
 	}
 	.emojiSelectPopoverScrollbarThumb {
 		background: #fff;
 	}
 	.emojiSelectPopoverScrollbar {
-		background: #202020;
+		background-color: #202020;
 	}
 	.webcast-chatroom-header {
-		background: #111;
+		background-color: #111;
 		border-color: rgba(255, 255, 255, .08);
 		color: #d8d3e8;
 	}
@@ -193,23 +197,23 @@
 		filter: inherit !important;
 	}
 	.emojiSelectPopover {
-		background: #111;
+		background-color: #111;
 	}
 	.webcast-chatroom__room {
 		color: #d8d3e8;
 	}
 	.webcast-chatroom, .webcast-chatroom__comment-wrap {
-		background: #111;
+		background-color: #111;
 		border-color: rgba(216, 211, 232, .12);
 	}
 	span.webcast-chatroom-header-svg > div > svg > path {
 		fill: #fff;
 	}
 	.iframe-container, .tiktok-app-container-12zKy .tiktok-web-body-33PDi, .side-bar-wrapper, .form-container .form-wrapper, .row-layout-content-container, .modal, .modal .btns button {
-		background: #111 !important;
+		background-color: #111 !important;
 	}
 	.main-body, .modal .modal-wrapper .close, .webcast-chatroom__chat-message .chat-message-item .more, .webcast-chatroom__chat-message__operate, .tiktok-10tpfho-BrowserModeContainer {
-		background: #111;
+		background-color: #111;
 	}
 	.nav-item > svg {
 		fill: #d8d3e8;
@@ -221,14 +225,14 @@
 		fill: #404044 !important;
 	}
 	select {
-		background: #111;
+		background-color: #111;
 		color: #fff;
 	}
 	.action-container {
 		color: #e2e2e2 !important;
 	}
 	.popup {
-		background: #111 !important;
+		background-color: #111 !important;
 		box-shadow: 0 4px 16px rgba(255, 255, 255, .12) !important;
 	}
 	.popup::before, .share-pc-card::after, .feedback, [src='https://sf16-scmcdn-va.ibytedtos.com/goofy/tiktok/web/node/_next/static/images/tip_arrow_white-050387fde598df3b2e69dd3d3adb632d.svg'], [src='data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTE5Ljk5OTcgMC44MzMzNzRDMzAuNTg0NyAwLjgzMzM3NCAzOS4xNjYzIDkuNDE1MDQgMzkuMTY2MyAyMEMzOS4xNjYzIDMwLjU4NSAzMC41ODQ3IDM5LjE2NjcgMTkuOTk5NyAzOS4xNjY3QzkuNDE0NjcgMzkuMTY2NyAwLjgzMzAwOCAzMC41ODUgMC44MzMwMDggMjBDMC44MzMwMDggOS40MTUwNCA5LjQxNDY3IDAuODMzMzc0IDE5Ljk5OTcgMC44MzMzNzRaIiBmaWxsPSJibGFjayIgc3Ryb2tlPSJibGFjayIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik0xMS42NjYgMTEuNjY2N0wyOC4zMzI3IDI4LjMzMzQiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8cGF0aCBkPSJNMjguMzMyNyAxMS42NjY3TDExLjY2NiAyOC4zMzM0IiBzdHJva2U9IndoaXRlIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPC9zdmc+Cg=='], [src='https://sf16-scmcdn-va.ibytedtos.com/goofy/tiktok/web/node/_next/static/images/ic_right_show-c1de46637e5de6ee2ba9c181eddd1202.svg'], [src='https://sf16-scmcdn-va.ibytedtos.com/goofy/tiktok/web/node/_next/static/images/close_gray-30d27359308dde2232cbef8dfa96163d.svg'], .message-icon, .action-container.send-messages .action-item .icon-messages, [src="https://lf16-tiktok-web.ttwstatic.com/obj/tiktok-web-us/tiktok/web/node/_next/static/images/close_gray-30d27359308dde2232cbef8dfa96163d.svg"], .form-container-3WLeZ .hide-password-1sE4v  {
@@ -256,21 +260,21 @@
 		color: rgba(226, 226, 226, .5) !important;
 	}
 	.comment-post-outside-container {
-		background: #111 !important;
+		background-color: #111 !important;
 		border-color: #e2e2e21f !important;
 	}
 	.comment-input-inner-wrapper {
-		background: #d8d3e80f !important;
+		background-color: #d8d3e80f !important;
 	}
 	.comment-post-inner-wrapper .post-container {
 		color: rgba(216, 211, 232, .34) !important;
 	}
 	.share-pc-card {
-		background: #111 !important;
+		background-color: #111 !important;
 		box-shadow: rgba(255, 255, 255, .12) 0px 4px 16px !important;
 	}
 	.share-pc-card.jsx-3606761601 .share-item-wrapper.jsx-3606761601:not(:last-child)::after {
-		background: rgba(226, 226, 226, .12) !important
+		background-color: rgba(226, 226, 226, .12) !important
 	}
 	.video-feed-item {
 		border-color: rgba(226, 226, 226, .12) !important;
@@ -279,10 +283,10 @@
 		border-color: rgba(226, 226, 226, .2) !important;
 	}
 	.share-pc-card .share-item-wrapper:hover {
-		background: rgba(216, 211, 232, .031) !important;
+		background-color: rgba(216, 211, 232, .031) !important;
 	}
 	.engagement-icon-v23:hover {
-		background: rgba(226, 226, 226, .2);
+		background-color: rgba(226, 226, 226, .2);
 	}
 	.cookie-setting .section-wrapper .section-item-wrapper .section-item, .cookie-setting .section-wrapper .section-header {
 		border-color: rgba(226, 226, 226, .2);
@@ -291,7 +295,7 @@
 		color: #e2e2e2 !important;
 	}
 	.app-promotion > span {
-		background: #111 !important;
+		background-color: #111 !important;
 		border-color: rgba(226, 226, 226, .12) !important;
 		box-shadow: rgba(255, 255, 255, .06) 0px 2px 8px !important;
 		color: rgba(226, 226, 226, .75) !important;
@@ -325,22 +329,22 @@
 	}
 	.row-layout-nav .row-layout-nav-item >
 	.video-feed-tab .bottom-line {
-		background: rgb(216, 211, 232) !important;
+		background-color: rgb(216, 211, 232) !important;
 	}
 	.header-inbox .content-wrap {
-		background: #111 !important;
+		background-color: #111 !important;
 		box-shadow: 0 -4px 32px rgba(255, 255, 255, .1) !important;
 	}
 	.inbox-content-header span.selected {
-		background: rgb(216, 211, 232) !important;
+		background-color: rgb(216, 211, 232) !important;
 		color: #000 !important;
 	}
 	.inbox-content-header span {
-		background: #121212 !important;
+		background-color: #121212 !important;
 		color: rgb(216, 211, 232) !important;
 	}
 	.notification-item .avatar img {
-		background: #111;
+		background-color: #111;
 	}
 	.header-inbox .header-inbox-icon > svg[fill="#161823"] {
 		fill: rgb(216, 211, 232);
@@ -349,7 +353,7 @@
 		fill: rgba(216, 211, 232, 0.34);
 	}
 	.promotion-download {
-		background: #111 !important;
+		background-color: #111 !important;
 		box-shadow: rgba(255, 255, 255, .12) 0px 2px 12px !important;
 	}
 	.promotion-download .close-icon > * {
@@ -359,7 +363,7 @@
 		border-color: #3c3c3e !important;
 	}
 	.download-sms form{
-		background: #111 !important;
+		background-color: #111 !important;
 		border-color: #7a7b82 !important;
 	}
 	.download-sms form.modal-download-style > div > svg {
@@ -371,7 +375,7 @@
 		box-shadow: rgba(66, 174, 172, .2) 2px 4px 20px !important;
 	}
 	.area-list-container .list-item:hover {
-		background: rgba(255, 255, 255, .06) !important;
+		background-color: rgba(255, 255, 255, .06) !important;
 	}
 	.engagement-icon-v23{
 		background-color: rgba(216, 211, 232, .06);
@@ -386,11 +390,11 @@
 		border-color: rgba(216, 211, 232, .12) !important;
 	}
 	.radio .radio-box, .checkbox .checkbox-box {
-		background: #111 !important;
+		background-color: #111 !important;
 		border-color: rgba(216, 211, 232, .12) !important;
 	}
 	.checkbox .checkbox-box.checked {
-		background: rgb(45, 140, 240) !important;
+		background-color: rgb(45, 140, 240) !important;
 	}
 	.footer-container .footer-content-wrapper .tiktok-logo .logo-container img {
 		filter: inherit !important;
@@ -402,30 +406,30 @@
 		filter: invert(1) hue-rotate(180deg);
 	}
 	.checkbox {
-		background: #0000;
+		background-color: #0000;
 	}
 	.button.disabled {
-		background: rgba(216, 211, 232, .06) !important;
+		background-color: rgba(216, 211, 232, .06) !important;
 		color: rgba(216, 211, 232, .34) !important;
 	}
 	.tiktok-btn-pc:active {
-		background: rgba(216, 211, 232, .06);
+		background-color: rgba(216, 211, 232, .06);
 		border-color: rgba(216, 211, 232, .02);
 	}
 	.tiktok-btn-pc:hover {
-		background: rgba(216, 211, 232, .03);
+		background-color: rgba(216, 211, 232, .03);
 		border-color: rgba(216, 211, 232, .02);
 	}
 	.tiktok-btn-pc-line:active {
-		background: rgba(216, 211, 232, .06);
+		background-color: rgba(216, 211, 232, .06);
 		border-color: #fe2c55;
 	}
 	.tiktok-btn-pc-line:hover {
-		background: rgba(216, 211, 232, .03);
+		background-color: rgba(216, 211, 232, .03);
 		border-color: #fe2c55;
 	}
 	.detail-board .content-container .is-helpful-container .yes-button, .detail-board .content-container .is-helpful-container .no-button {
-		background: #111 !important;
+		background-color: #111 !important;
 		border-color: rgba(216, 211, 232, .12) !important;
 	}
 	button {
@@ -445,7 +449,7 @@
 		background-color: rgba(216, 211, 232, .06);
 	}
 	textarea {
-		background: #111;
+		background-color: #111;
 		color: #fff;
 		border-color: rgba(216, 211, 232, .12);
 	}
@@ -454,10 +458,10 @@
 		color: #000;
 	}
 	.hamburger-menu .hamburger-menu-wrapper span {
-		background: #fff !important;
+		background-color: #fff !important;
 	}
 	.drawer-content {
-		background: #111 !important;
+		background-color: #111 !important;
 		border-color: #111 !important;
 	}
 	.drawer-content .item-sub-column h5 {
@@ -470,7 +474,7 @@
 		box-shadow: rgba(150, 191, 191, .2) 2px 4px 20px !important;
 	}
 	.stage-1 {
-		background: rgba(216, 211, 232, .03) !important;
+		background-color: rgba(216, 211, 232, .03) !important;
 	}
 	.chosen {
 		border-color: #111 !important;
@@ -480,7 +484,7 @@
 		border-color: rgba(216, 211, 232, .12) !important;
 	}
 	.scroll-parent {
-		background: #111;
+		background-color: #111;
 		box-shadow: rgba(75, 198, 195, .2) 2px 0px 20px -20px, rgba(75, 198, 195, .2) 0px 8px 20px -2px, rgba(75, 198, 195, .2) 0px 0px 20px -20px;
 		border-color: rgba(216, 211, 232, .12);
 	}
@@ -488,13 +492,13 @@
 		background-color: #191919 !important;
 	}
 	.modal {
-		background: #111;
+		background-color: #111;
 	}
 	path.rc-progress-circle-trail {
 		stroke: #d8d3e8 !important;
 	}
 	.nav-item:hover {
-		background: rgba(216, 211, 232, .03) !important;
+		background-color: rgba(216, 211, 232, .03) !important;
 	}
 	.share-header .count-infos {
 		color: rgba(226, 226, 226, .75);
@@ -567,7 +571,7 @@
 		color: #fff;
 	}
 	.card-container .card-text-container, .content, .card, header .help-container .help-item, .campaign-card {
-		background: #111;
+		background-color: #111;
 	}
 	.dropdown-border {
 		border-color: #444;
@@ -582,7 +586,7 @@
 		color: #ccc;
 	}
 	[dir] .tiktokads-homepage-ad-format-tab-pane .tab-title:after {
-		background: #ccc;
+		background-color: #ccc;
 	}
 	.tiktok-ads-homepage-apps-tiktok .tiktok-part1-text, .tiktok-ads-homepage-apps-tiktok .tiktok-part3-content-text-item .text-item-desc, .vi-tabs__item:hover, .tiktokads-homepage-ad-format-tab-pane ul.tab-desc, .tiktokads-common-login .tiktokads-common-login-type-panel .panel-item, .tiktokads-common-login-form-item .iconfont, .tiktokads-common-login-code-form-item .iconfont {
 		color: #999;
@@ -597,24 +601,24 @@
 		border-color: #383838;
 	}
 	[dir] .vi-tabs__nav-wrap:after {
-		background: #262a2d;
+		background-color: #262a2d;
 	}
 	[dir] .footer-wrapper_3zbNp {
-		background: #111;
+		background-color: #111;
 		border-color: #2d3033;
 	}
 	[dir] .footer-bottom_p-n9S, .at-contact .vi-layout, .at-home .vi-layout, .at-login .vi-layout, .at-protocol .vi-layout, .at-register .vi-layout, .at-signup .vi-layout, .tiktokads-common-area-select .tiktokads-account-center-area-select .tiktokads-area-code-box .tiktokads-area-suffix, .tiktokads-common-area-select.select-show .tiktokads-select-panel, .open-m-menu, .atsx-layout, .css-1tfw99b {
-		background: #111;
+		background-color: #111;
 	}
 	.global-loading {
-		background: #111;
+		background-color: #111;
 		color: #666;
 	}
 	.user-aside {
-		background: #21292f;
+		background-color: #21292f;
 	}
 	.tiktokads-common-login input {
-		background: #111;
+		background-color: #111;
 		color: #ccc;
 		border-color: #3a3e42;
 	}
@@ -628,19 +632,19 @@
 		color: #3F71C3 !important;
 	}
 	.tiktokads-common-area-select:after {
-		background: #202020;
+		background-color: #202020;
 	}
 	.tiktokads-common-area-select .tiktokads-account-center-area-select .tiktokads-search-code .tiktokads-area-code-input {
 		border-color: #2b2b2b;
 	}
 	.tiktokads-common-area-select.select-show .tiktokads-select-panel .tiktokads-select-ul .tiktokads-select-li:hover {
-		background: #2d3033;
+		background-color: #2d3033;
 	}
 	h1, h2, h3, h4, h5, h6 {
 		color: rgba(255, 255, 255, .85);
 	}
 	.open-partnerships {
-		background: #191a1b;
+		background-color: #191a1b;
 	}
 	.open-m-menu>.menu-item, .open-m-menu .group-label {
 		color: rgba(255, 255, 255, .85);
@@ -649,28 +653,28 @@
 		color: #737373;
 	}
 	.open-docs-wrapper .doc__content {
-		background: #111;
+		background-color: #111;
 		border-color: #121212;
 	}
 	.md {
 		color: rgba(255, 255, 255, .85);
 	}
-	[style="display: block; overflow-x: auto; padding: 0.5em; color: rgb(51, 51, 51); background: rgb(248, 248, 248);"], [style="display: block;overflow-x: auto;padding: 0.5em;color: #333333;background: #f8f8f8;"] {
-		background: #181818 !important;
+	[style*="color: rgb(51, 51, 51); background: rgb(248, 248, 248)"], [style*="color: #333333;background: #f8f8f8"] {
+		background-color: #181818 !important;
 		color: #ccc !important;
 	}
 	.open-m-menu .selected {
 		color: #fe2c55 !important;
-		background: #1c0d10;
+		background-color: #1c0d10;
 	}
 	.md p+code, .md p>code, .md li>code {
-		background: #344242;
+		background-color: #344242;
 		color: rgba(255, 255, 255, .85);
 	}
-	[style="color: rgb(0, 0, 128); font-weight: normal;"] {
+	[style*="color: rgb(0, 0, 128)"] {
 		color: #0067ff !important;
 	}
-	[style="color: rgb(51, 51, 51); font-weight: bold;"], [style="color: #333333;font-weight: bold;"] {
+	[style*="color: rgb(51, 51, 51)"], [style*="color: #333333"] {
 		color: #ccc !important;
 	}
 	hr {
@@ -678,7 +682,7 @@
 	}
 	.md table th {
 		border-color: #282828;
-		background: rgba(255, 255, 255, .02);
+		background-color: rgba(255, 255, 255, .02);
 		color: #acdaff; 
 	}
 	.md table td {
@@ -688,7 +692,7 @@
 		color: #f9fafb;
 	}
 	.newsroom-item-link .newsroom-item-card, .contact-container .contact-wrapper, .base-layout-container, .tiktok-8xy8xu-HeaderInboxWrapper {
-		background: #111;
+		background-color: #111;
 	}
 	.contact-container .contact-wrapper .contact-row .contact-card {
 		border-color: #3c3c3e;
@@ -702,22 +706,22 @@
 	.homepage-video-wrap .search-content .atsx-input {
 		color: #d8d3e8;
 		border-color: #7a7b81;
-		background: #111;
+		background-color: #111;
 	}
 	.atsx-select-selection {
-		background: #111;
+		background-color: #111;
 		border-color: #3a3e3e;
 		color: #d8d3e8;
 	}
 	.atsx-select-dropdown {
-		background: #111;
+		background-color: #111;
 		color: #d8d3e8;
 	}
 	.itemWrapper__29vn1 .textContainer article, .header__2KfC2 .categoryWrapper .category span, .container__SX5y9 .titleWrapper .titleWrapper-header, .itemWrapper__29vn1 .textContainer .headerWithCircle nav {
 		color: #d8d3e8;
 	}
 	body .atsx-select-dropdown-menu-item-active:not(.atsx-select-dropdown-menu-item-disabled), body .atsx-select-dropdown-menu-item:hover:not(.atsx-select-dropdown-menu-item-disabled) {
-		background: #111 !important;
+		background-color: #111 !important;
 	}
 	.atsx-select-dropdown-menu-item:hover:not(.atsx-select-dropdown-menu-item-disabled) {
 		background-color: #151617;
@@ -726,16 +730,16 @@
 		color: #727272;
 	}
 	.search-dropdown .atsx-select-dropdown-menu::-webkit-scrollbar-thumb {
-		background: #444;
+		background-color: #444;
 	}
 	.search-dropdown .atsx-select-dropdown-menu::-webkit-scrollbar-track {
 		box-shadow: inset 0 0 6px #111;
 	}
 	.carousel_container__35v9R .carousel_slide .container .content {
-		background: #0000;
+		background-color: #0000;
 	}
 	.carousel_container__35v9R .carousel_slide, .tiktok-92ghuj-Button-FollowButtonContainer {
-		background: #111;
+		background-color: #111;
 	}
 	.swiper-button-prev > svg > circle, .swiper-button-next > svg > circle {
 		fill: #111;
@@ -747,10 +751,10 @@
 		fill: #7a7b82;
 	}
 	.swiper-pagination-bullet {
-		background: #fff;
+		background-color: #fff;
 	}
 	.homepage-spotlight-wrap {
-		background: #191a1b;
+		background-color: #191a1b;
 	}
 	.job-spotlight-row .spotlight-item {
 		color: rgba(255, 255, 255, .85);
@@ -762,10 +766,10 @@
 		filter: inherit;
 	}
 	.homepage-blog-wrap .atsx-carousel .item, .header__2KfC2 .categoryWrapper .category, .tiktok-1703zzf-ScrollContainer-StyledScroll {
-		background: #111;
+		background-color: #111;
 	}
 	.homepage-blog-wrap .atsx-carousel .blogContent {
-		background: #111;
+		background-color: #111;
 		color: #fff;
 	}
 	.control.prev > svg > path, .control.next > svg > path {
@@ -775,35 +779,35 @@
 		color: rgba(255, 255, 255, .45);
 	}
 	.itemWrapper__29vn1 .imgContainer .imgWrapper .shadow {
-		background: #16171a;
+		background-color: #16171a;
 	}
 	body .atsx-btn:hover, .atsx-btn-default.active, .atsx-btn-default:active, .atsx-btn-default:hover, .processWrapper__1A7m1 .process-action .qa:hover, .atsx-btn-primary, .processWrapper__1A7m1 .process-action .qa {
-		background: #111;
+		background-color: #111;
 	}
 	.atsx-btn-default {
-		background: #111;
+		background-color: #111;
 	}
 	.timeline > svg > path {
 		fill: #6a747d;
 	}
 	.css-100z4e6 {
-		background: #d8d3e80f;
+		background-color: #d8d3e80f;
 	}
 	.css-a9589n {
-		background: #121419;
+		background-color: #121419;
 	}
 	.css-155h82a {
 		color: #fff;
 		background-color: #111;
 	}
 	.css-pi3op2 {
-		background: #111;
+		background-color: #111;
 	}
 	.css-ht4v2z:hover {
-		background: rgba(216, 211, 232, .059);
+		background-color: rgba(216, 211, 232, .059);
 	}
 	.css-ht4v2z:active {
-		background: rgba(216, 211, 232, .2);
+		background-color: rgba(216, 211, 232, .2);
 	}
 	.css-ht4v2z {
 		color: #83848c !important;
@@ -824,7 +828,7 @@
 		fill: rgba(216, 211, 232, .34);
 	}
 	.sug-container {
-		background: #111 !important;
+		background-color: #111 !important;
 	}
 	.tiktok-toast-notice-content {
 		background-color: #646464eb;
@@ -842,23 +846,23 @@
 	}
 	.select-container .selected-container {
 		border-color: rgba(216, 211, 232, .12) !important;
-		background: #111 !important;
+		background-color: #111 !important;
 	}
 	.switch-container .switch {
-		background: #111 !important;
+		background-color: #111 !important;
 	}
 	.switch-container {
-		background: rgba(216, 211, 232, .12) !important;
+		background-color: rgba(216, 211, 232, .12) !important;
 	}
 	.switch-container.on {
-		background: rgb(103, 220, 160) !important;
+		background-color: rgb(103, 220, 160) !important;
 	}
 	.select-container .select-options-container .select-option:hover {
-		background: rgba(216, 211, 232, .03) !important;
+		background-color: rgba(216, 211, 232, .03) !important;
 	}
 	.select-container .select-options-container {
 		border-color: rgba(216, 211, 232, .12) !important;
-		background: #111 !important;
+		background-color: #111 !important;
 	}
 	[src='https://sf16-scmcdn-va.ibytedtos.com/goofy/tiktok/web/node/_next/static/images/qr_code_wrapper-9e7e3cf494d9e82cee90c4ecac38c031.svg']  {
 		filter: invert(82%) sepia(18%) saturate(181%) hue-rotate(213deg) brightness(105%) contrast(85%);
@@ -876,7 +880,7 @@
 		fill: #111;
 	}
 	.report {
-		background: #111 !important;
+		background-color: #111 !important;
 		color: #d8d3e8 !important;
 	}
 	.reason-radios, .half-item, .report .button-wrap {
@@ -884,13 +888,13 @@
 	}
 	.report .button-wrap button {
 		border-left-color: rgba(216, 211, 232, .12) !important;
-		background: #111 !important;
+		background-color: #111 !important;
 	}
 	input:checked + .radio-icon {
 		border-color: rgb(254, 44, 85) !important;
 	}
 	.half-item:nth-child(2n+1)::after {
-		background: rgba(216, 211, 232, .12) !important;
+		background-color: rgba(216, 211, 232, .12) !important;
 	}
 	.language-selection .language-selection-form, .newsroom-item-link {
 		color: #fff;
@@ -905,7 +909,7 @@
 		filter: inherit;
 	}
 	.option:hover {
-		background: rgba(216, 211, 232, .03) !important;
+		background-color: rgba(216, 211, 232, .03) !important;
 	}
 	.option i, .option {
 		color: #d8d3e8 !important;
@@ -914,10 +918,10 @@
 		border-color: #111 !important;
 	}
 	.mentionSuggestionsEntryFocused {
-		background: #181818;
+		background-color: #181818;
 	}
 	.mentionSuggestions {
-		background: #111;
+		background-color: #111;
 		border-color: rgba(216, 211, 232, .12);
 	}
 	.mentionSuggestions > div > div > div > span:nth-of-type(2) {
@@ -927,16 +931,16 @@
 		fill: #111;
 	}
 	.row-layout-background {
-		background: #141414 !important;
+		background-color: #141414 !important;
 	}
 	.row-layout-nav .row-nav-scroll {
-		background: #111 !important;
+		background-color: #111 !important;
 	}
 	.setting-title {
 		color: #fff !important;
 	}
 	.tiktok-modal__modal-mask .tiktok-modal__modal-wrapper {
-		background: #111;
+		background-color: #111;
 	}
 	.tiktok-modal__modal-mask .tiktok-modal__modal-wrapper .tiktok-modal__modal-title, .message-setting-container .message-setting-content .setting-type {
 		color: #d8d3e8;
@@ -945,11 +949,11 @@
 		color: rgba(216, 211, 232, .75);
 	}
 	.tiktok-modal__modal-mask .tiktok-modal__modal-wrapper .tiktok-modal__modal-footer .tiktok-modal__modal-button.is-line:active {
-		background: rgba(216, 211, 232, .06);
+		background-color: rgba(216, 211, 232, .06);
 		border-color: rgba(216, 211, 232, .2);
 	}
 	.tiktok-modal__modal-mask .tiktok-modal__modal-wrapper .tiktok-modal__modal-footer .tiktok-modal__modal-button.is-line:hover {
-		background: rgba(216, 211, 232, .03);
+		background-color:rgba(216, 211, 232, .03);
 		border-color: rgba(216, 211, 232, .2);
 	}
 	.tiktok-modal__modal-mask .tiktok-modal__modal-wrapper .tiktok-modal__modal-footer .tiktok-modal__modal-button.is-line {
@@ -960,10 +964,10 @@
 		border-color: #676767;
 	}
 	.tiktok-app-container-12zKy {
-		background: #111;
+		background-color: #111;
 	}
 	.toggle-2SAdO {
-		background: #111;
+		background-color: #111;
 		color: #d8d3e8;
 	}
 	.tiktok-radio .tiktok-radio__inner, .feedback-header .breadcrumb-container .sub-title.clickable, .feedback-header .breadcrumb-container .topic.clickable, .tiktok-k2ioa7-UserTitle {
@@ -979,23 +983,23 @@
 		border-color: rgba(216, 211, 232, .12);
 	}
 	.close-modal {
-		background: rgba(216, 211, 232, .03) !important;
+		background-color: rgba(216, 211, 232, .03) !important;
 	}
 	.discover-list .discover-item-container {
-		background: #111 !important;
+		background-color: #111 !important;
 		border-color: rgba(216, 211, 232, .12) !important;
 	}
 	.video-feed-tab .bottom-line, .arrow-right::after, .arrow-right::before {
-		background: #d8d3e8 !important;
+		background-color: #d8d3e8 !important;
 	}
 	.icon-follow, [src='https://sf16-scmcdn-va.ibytedtos.com/goofy/tiktok/web/node/_next/static/images/more-action-icon-7aa6a63b2bf63cb69ec0aba5635da033.svg'], [src='https://sf16-scmcdn-va.ibytedtos.com/goofy/tiktok/web/node/_next/static/images/setting-icon-a9c23d78ffb500df10b32dbcc6aa9b5e.svg'], .message-black-icon, [src='https://sf16-scmcdn-va.ibytedtos.com/goofy/tiktok/web/node/_next/static/images/block-icon-404229410a4f9c063ffb7cb19ffc41ce.svg'], [src='https://sf16-scmcdn-va.ibytedtos.com/goofy/tiktok/web/node/_next/static/images/flag-icon-e35a4322f4132a16ac177b0355508c4e.svg'], [src='https://sf16-scmcdn-va.ibytedtos.com/goofy/tiktok/web/node/_next/static/images/pin-top-icon-6e4d9912c3a3b189da00780ff8c17b7a.svg'], [src='https://sf16-scmcdn-va.ibytedtos.com/goofy/tiktok/web/node/_next/static/images/trash-bin-icon-26b568c312ef800c355d8a304e35aa50.svg'], [src='https://sf16-scmcdn-va.ibytedtos.com/goofy/tiktok/web/node/_next/static/images/mute-action-icon-c037f494b844b21beeeb5758bc35b3a8.svg'] {
 		filter: invert(1) hue-rotate(180deg);
 	}
-	[style="background: rgb(248, 248, 248);"] {
-		background: #181818 !important;
+	[style*="background: rgb(248, 248, 248);"] {
+		background-color: #181818 !important;
 	}
 	.conversation-list-wrapper, .conversation-list-item-wrapper .more-action, .conversation-list-item-wrapper, .message-setting-container {
-		background: #111;
+		background-color: #111;
 	}
 	.conversation-list-wrapper .conversation-list-header .conversation-list-title {
 		color: #fff;
@@ -1010,7 +1014,7 @@
 		border-color: rgba(216, 211, 232, .12) !important;
 	}
 	.conversation-container, .conversation-header .send-fail-tip-container {
-		background: #111 !important;
+		background-color: #111 !important;
 	}
 	.conversation-header .send-fail-tip-container .send-fail-tip {
 		background-color: rgba(216, 211, 232, .03) !important;
@@ -1020,26 +1024,26 @@
 		border-color: transparent transparent #111;
 	}
 	.conversation-list-item-wrapper .more-action .action-item .action-detail::after {
-		background: rgba(216, 211, 232, .12);
+		background-color: rgba(216, 211, 232, .12);
 	}
 	.conversation-list-item-wrapper .more-action .action-item:hover {
-		background: rgba(216, 211, 232, .03);
+		background-color:rgba(216, 211, 232, .03);
 	}
 	.message-setting-container .message-setting-content::after, .message-setting-container .message-setting-header::after {
-		background: rgba(216, 211, 232, .02);
+		background-color: rgba(216, 211, 232, .02);
 	}
 	.conversation-item-wrapper .message-container.myself .text-container {
-		background: rgba(216, 211, 232, .06) !important;
+		background-color: rgba(216, 211, 232, .06) !important;
 		border-color: rgba(216, 211, 232, .12) !important;
 	}
 	.tiktok-btn-pc-disabled.tiktok-btn-pc-primary:hover, .tiktok-btn-pc-disabled.tiktok-btn-pc-primary {
-		background: rgba(216, 211, 232, .06);
+		background-color:rgba(216, 211, 232, .06);
 	}
 	.tiktok-radio:hover .tiktok-radio__radio {
-		background: rgba(216, 211, 232, .03);
+		background-color: rgba(216, 211, 232, .03);
 	}
 	.back-container {
-		background: rgba(216, 211, 232, .03) !important;
+		background-color: rgba(216, 211, 232, .03) !important;
 	}
 	.tiktok-tooltip {
 		color: rgba(255, 255, 255, .65);
@@ -1051,7 +1055,7 @@
 		color: rgb(254, 44, 85) !important;
 	}
 	.modal .content::after, .modal .btns button::after {
-		background: #fff !important;
+		background-color: #fff !important;
 	}
 	[d="M24.0002 47.001C36.7028 47.001 47.0002 36.7035 47.0002 24.001C47.0002 11.2984 36.7028 1.00098 24.0002 1.00098C11.2977 1.00098 1.00024 11.2984 1.00024 24.001C1.00024 36.7035 11.2977 47.001 24.0002 47.001Z"] {
 		fill: rgb(29, 161, 242) !important;
@@ -1066,14 +1070,14 @@
 		fill: #111 !important;
 	}
 	.tiktok-1syo4i5-HeaderContainer {
-		background: #111;
+		background-color: #111;
 		border-color: rgba(202, 210, 255, .2);
 	}
 	[ d="M17.4127 24.3475V14.7259C19.2652 16.0557 21.5392 16.842 23.9921 16.842V13.166C22.574 12.8656 21.3284 12.0984 20.4086 11.0435C18.9266 10.0782 17.8599 8.53106 17.5213 6.72821H14.0592L14.0528 25.6964C13.9762 27.8189 12.2259 29.5259 10.0861 29.5259C8.75742 29.5259 7.58847 28.8674 6.86028 27.8701C5.59551 27.1988 4.72679 25.8755 4.72679 24.3475C4.72679 22.1547 6.50895 20.371 8.69993 20.371C9.10874 20.371 9.50478 20.4413 9.87527 20.5564V16.8484C5.17393 16.9507 1.37964 20.8121 1.37964 25.5494C1.37964 27.8381 2.26753 29.9223 3.71753 31.4822C5.12921 32.4731 6.85389 33.0613 8.70632 33.0613C13.5035 33.0613 17.4127 29.1487 17.4127 24.3475Z"], [d="M30.0477 13.1787H44.8225L43.4683 17.411H39.6357V33.0548H34.8577V17.411L30.0541 17.4173L30.0477 13.1787Z"], [d="M69.0317 13.1787H84.1514L82.7972 17.411H78.6261V33.0548H73.8417V17.411L69.0381 17.4173L69.0317 13.1787Z"], [d="M45.7295 19.5015H50.4628V33.0548H45.755L45.7295 19.5015Z"], [d="M52.347 13.1277H57.0802V22.3848L61.7688 17.7754H67.4155L61.4814 23.5356L68.1246 33.0548H62.9122L58.4791 26.4572L57.0739 27.8189V33.0548H52.3406V13.1277H52.347Z"], [d="M102.49 13.1277H107.224V22.3848L111.912 17.7754H117.559L111.625 23.5356L118.268 33.0548H113.062L108.629 26.4572L107.224 27.8189V33.0548H102.49V13.1277Z"], [d="M48.0929 17.9544C49.4088 17.9544 50.4755 16.8867 50.4755 15.5697C50.4755 14.2528 49.4088 13.1851 48.0929 13.1851C46.7771 13.1851 45.7103 14.2528 45.7103 15.5697C45.7103 16.8867 46.7771 17.9544 48.0929 17.9544Z"], [d="M91.5803 28.8866C89.4021 28.8866 87.6391 27.1221 87.6391 24.942C87.6391 22.762 89.4021 20.9975 91.5803 20.9975C93.7585 20.9975 95.5215 22.762 95.5215 24.942C95.5215 27.1221 93.7522 28.8866 91.5803 28.8866ZM91.5803 16.8292C87.1026 16.8292 83.4744 20.4605 83.4744 24.942C83.4744 29.4236 87.1026 33.0548 91.5803 33.0548C96.0581 33.0548 99.6863 29.4236 99.6863 24.942C99.6863 20.4605 96.0581 16.8292 91.5803 16.8292Z"] {
 		fill: #fff;
 	}
 	.tiktok-1rnxxvd-ScrollContainer-StyledScroll, .tiktok-1ih2hzn-ProfileContainer, .tiktok-8q0do7-Button, .tiktok-1krtm2y-Button-FollowButtonContainer, .tiktok-1r7izfw-DivContentContainer {
-		background: #111;
+		background-color: #111;
 	}
 	.tiktok-99xamg-UserContainer::before, .tiktok-2crjoz-Spliter {
 		background: rgba(202, 210, 255, .12);
@@ -1082,7 +1086,7 @@
 		fill: #111;
 	}
 	.tiktok-s5ak8o-ButtonGetAppText {
-		background: #111;
+		background-color: #111;
 		border-color: rgba(202, 210, 255, .12);
 	}
 	.tiktok-s5ak8o-ButtonGetAppText:hover {
@@ -1101,11 +1105,11 @@
 	.e1s7k5ye0:not(:disabled) .tiktok-1iy36zb-ActionItemIconWrapper:hover, .tiktok-11hsg6y-ItemContainer::after {
 		background-color: rgba(202, 210, 255, .2);
 	}
-	[style="background-color: rgb(255, 255, 255); left: -25px;"], [style="background-color: rgb(255, 255, 255); right: -12px;"], [style="background-color: rgb(255, 255, 255); left: -2px;"] {
-		background: #111 !important;
+	[style*="background-color: rgb(255, 255, 255)"] {
+		background-color: #111 !important;
 	}
 	.tiktok-1yi1maw-VideoCardContainer, .tiktok-cby9y7-VideoCardContainer, .tiktok-1g0eoyw-VideoCardContainer, .tiktok-uf3ybh-VideoCardContainer, .tiktok-21mglp-VideoCardContainer, .tiktok-c7r2yn-VideoCardContainer {
-		background: #222;
+		background-color: #222;
 	}
 	[fill="rgba(22, 24, 35, 0.34)"] {
 		fill: rgba(202, 210, 255, .34);
@@ -1117,7 +1121,7 @@
 		border-color: rgba(202, 210, 255, .2);
 	}
 	.tiktok-4mldut-SugContainer {
-		background: #111;
+		background-color: #111;
 	}
 	[fill="#121212"] {
 		fill: #e2e2e2;
@@ -1136,11 +1140,11 @@
 		filter: invert(1) hue-rotate(180deg);
 	}
 	.report .button-wrap button:disabled {
-		background: #111112 !important;
+		background-color: #111112 !important;
 		color: #505054 !important;
 	}
 	.lang-select-wrap > ul > li:hover {
-		background: rgba(216, 211, 232, .06) !important;
+		background-color: rgba(216, 211, 232, .06) !important;
 	}
 	.comment-container {
 		background-color: #181818 !important;
@@ -1163,7 +1167,7 @@
 		fill: #111;
 	}
 	.tiktok-select-dropdown .tiktok-select-dropdown-item-skeleton .tiktok-select-dropdown-item-skeleton-avatar,.tiktok-select-dropdown .tiktok-select-dropdown-item-skeleton .tiktok-select-dropdown-item-skeleton-line {
-		background: #121212;
+		background-color: #121212;
 	}
 	.webcast-chatroom .message-icon-wrapper {
 		background-color: #121213;
@@ -1176,19 +1180,19 @@
 		filter: invert(1);
 	}
 	.tiktok-h5872a-Button-FollowButton, .tiktok-f08obw-BottomCommentContainer, .tiktok-ubmw4g-ScrollContainer-StyledScroll {
-		background: #111;
+		background-color: #111;
 	}
 	.tiktok-lriq01-InputAreaContainer, .tiktok-uiyfj-CopyLinkText, .tiktok-1kg0xub-ActionItemIconWrapper, .tiktok-z4kkjw-VideoPlayerContainer {
-		background: rgba(216, 211, 232, .06);
+		background-color: rgba(216, 211, 232, .06);
 	}
 	.tiktok-1y8ejf2-CopyLinkContainer, .tiktok-1jlhjaa-Signature {
 		border-color: rgba(216, 211, 232, .12);
 	}
 	[style="background-color: rgb(255, 255, 255); right: -6px;"] {
-		background: #111 !important;
+		background-color: #111 !important;
 	}
 	.tiktok-zumxar-HeaderContainer, .tiktok-18szniq-DivHeaderContainer {
-		background: #111111b8;
+		background-color: #111111b8;
 		backdrop-filter: blur(1rem);
 		-webkit-backdrop-filter: blur(1rem);
 		border-color: rgba(81, 217, 214, .2);
@@ -1200,22 +1204,22 @@
 		color: rgba(216, 211, 232, .34);
 	}
 	.user-item-inner:hover {
-		background: rgba(216, 211, 232, .03) !important;
+		background-color: rgba(216, 211, 232, .03) !important;
 	}
 	.discover-list .discover-item-container:hover {
-		background: rgba(216, 211, 232, .03) !important;
+		background-color: rgba(216, 211, 232, .03) !important;
 	}
 	.discover-list .discover-item-container:active {
-		background: rgba(216, 211, 232, .06) !important;
+		background-color: rgba(216, 211, 232, .06) !important;
 	}
 	.tiktok-1wa57l-ScrollContainer-StyledScroll {
-		background: #111;
+		background-color: #111;
 	}
 	.tiktok-n3zcmr-StyledLink:hover, .tiktok-hi0u04-StyledUserLinkContainer:hover, .tiktok-1rqcwhy-DivDiscoverItemContainer:hover, .tiktok-786zez-StyledLink:hover, .tiktok-l9rrfg-StyledUserLinkContainerV3:hover, .tiktok-r1vw0e-LiItemWrapper:hover, .tiktok-1vmb1zi-LiItem:hover, .tiktok-1qlwqct-DivDiscoverItemContainer:hover {
-		background: rgba(216, 211, 232, .03);
+		background-color: rgba(216, 211, 232, .03);
 	}
 	.tiktok-786zez-StyledLink:active, .tiktok-l9rrfg-StyledUserLinkContainerV3:active, .item-channel:hover {
-		background: rgba(216, 211, 232, .06);
+		background-color: rgba(216, 211, 232, .06);
 	}
 	.tiktok-1rqcwhy-DivDiscoverItemContainer, .tiktok-1qlwqct-DivDiscoverItemContainer {
 		border-color: rgba(216, 211, 232, .2);
@@ -1227,28 +1231,28 @@
 		background-color: rgba(255, 255, 255, .15);
 	}
 	.tiktok-l9rrfg-StyledUserLinkContainerV3 {
-		background: #111;
+		background-color: #111;
 		border-color: rgba(216, 211, 232, .12);
 	}
 	.tiktok-r1vw0e-LiItemWrapper {
 		border-color: rgba(216, 211, 232, .12);
 	}
 	.tiktok-qbvjfq-VideoCardContainer, .tiktok-194u0b4-VideoCardContainer {
-		background: #222;
+		background-color: #222;
 	}
 	.tiktok-1ln2gjt-InputAreaContainer {
-		background: rgba(216, 211, 232, .06);
+		background-color: rgba(216, 211, 232, .06);
 		border-color: rgba(216, 211, 232, .2);
 	}
 	.tiktok-1wf72gm-DivAreaSelContainer {
-		background: #111;
+		background-color: #111;
 		border-color: rgba(216, 211, 232, .06);
 	}
 	.tiktok-19fnsmp-GroupItem {
-		background: #121212;
+		background-color: #121212;
 	}
 	.tiktok-b6a7ru-GroupItem {
-		background: rgb(216, 211, 232);
+		background-color: rgb(216, 211, 232);
 		color: #000;
 	}
 	a.option.feedback {
@@ -1259,22 +1263,22 @@
 		background-image: linear-gradient(90deg, rgba(216, 211, 232, .0), rgba(216, 211, 232, .04) 50%, rgba(216, 211, 232, .0));
 	}
 	.tiktok-192dsrp-Button-StyledLogin, .homepage-blog-wrap .swapping .atsx-carousel:after, .homepage-blog-wrap .swapping .atsx-carousel:before {
-		background: #111;
+		background-color: #111;
 	}
 	[style*="background-color: rgb(255, 255, 255)"] {
 		background-color: #111 !important;
 	}
 	.e1bs7gq20:not(:disabled) .tiktok-z5qvhe-ActionItemIconWrapper:hover, .e1bs7gq20:not(:disabled) .tiktok-142pgmz-ActionItemIconWrapper:hover {
-		background: rgba(216, 211, 232, .2);
+		background-color: rgba(216, 211, 232, .2);
 	}
 	.tiktok-z5qvhe-ActionItemIconWrapper, .tiktok-142pgmz-ActionItemIconWrapper, .tiktok-1rsi8g9-LiListItem:hover, .tiktok-1wil3v2-LiListItem:hover {
-		background: rgba(216, 211, 232, .06);
+		background-color: rgba(216, 211, 232, .06);
 	}
 	.stage-2 {
-		background: rgba(216, 211, 232, .06) !important;
+		background-color: rgba(216, 211, 232, .06) !important;
 	}
 	.tiktok-1mg5b8x-ButtonGetAppText {
-		background: #111;
+		background-color: #111;
 		color: rgba(216, 211, 232, .75);
 		border-color: rgba(216, 211, 232, .12);
 	}
@@ -1283,7 +1287,7 @@
 		background-color: rgba(216, 211, 232, .03);
 	}
 	.em-follow.side-bar-container .user-list-inner-container .user-item-container {
-		background: #111 !important;
+		background-color: #111 !important;
 		border-color: rgba(216, 211, 232, .12) !important;
 	}
 	.em-follow.side-bar-container .user-list-inner-container .user-item-container:hover {
@@ -1299,10 +1303,10 @@
 		color: rgba(226, 226, 226, .75);
 	}
 	.video-infos-container > .action-container:hover, .popup.actions-enter-done > .action-container {
-		background: #0000 !important;
+		background-color: #0000 !important;
 	}
 	.tiktok-s0bcb6-AvatarContainer-AvatarStyled {
-		background: #111;
+		background-color: #111;
 		border-color: #111;
 		color: #111;
 	}
@@ -1313,7 +1317,7 @@
 		color: #111;
 	}
 	.tiktok-preyrg-ButtonGetAppText {
-		background: #111;
+		background-color: #111;
 		color: rgba(226, 226, 226, .75);
 		border-color: rgba(226, 226, 226, .12);
 	}
@@ -1325,10 +1329,10 @@
 		filter: invert(1);
 	}
 	[dir] .content_10qvF {
-		background: #111111fc;
+		background-color: #111111fc;
 	}
 	[dir] .featuredWrapper_gYK__, [dir] .featuredWrapper_gYK__ .card_L5x91 {
-		background: #181818;
+		background-color: #181818;
 	}
 	.featuredWrapper_gYK__ .cardTitle_2_eMh {
 		color: #ccc;
@@ -1337,10 +1341,10 @@
 		color: #999;
 	}
 	[dir] .featuredWrapper_gYK__ .cardBtn_14X7l:active, [dir] .featuredWrapper_gYK__ .cardBtn_14X7l:hover {
-		background: #111;
+		background-color: #111;
 	}
 	[dir] .vi-button {
-		background: #1a1a1a;
+		background-color: #1a1a1a;
 	}
 	.featuredWrapper_gYK__ .title_1dy0Y, .appMenuWrapper_xqv4P .appTitle_JWQ0f, .appMenuWrapper_xqv4P .serviceTitle_xPEau, .tiktokads-inspiration-card-content-tags, .tiktok-ads-blog-swiper-card .card-detail .article-tags, .article-tags_SN-ML {
 		color: #666;
@@ -1349,10 +1353,10 @@
 		color: #ddd;
 	}
 	[dir] .vi-input::-webkit-scrollbar-corner, [dir] .vi-input::-webkit-scrollbar-track, [dir] .vi-input__inner, [dir] .tiktokads-inspiration-article-content-logo-img-wrapper {
-		background: #111;
+		background-color: #111;
 	}
 	[dir] .vi-input::-webkit-scrollbar-thumb {
-		background: #545862;
+		background-color: #545862;
 	}
 	.vi-input__inner, .tiktokads-inspiration-list-operation .vi-select .vi-input .vi-input__icon, .vi-select-dropdown__item, .tiktokads-inspiration-article-content-tags .tags-item-desc, .tiktok-ads-blog-swiper-card .card-detail .article-title, .common-operation .vi-select .vi-input .vi-input__icon, .tiktok-ads-blog-swiper-card .card-detail .article-date, .date_aMtR_, .title_32t_C {
 		color: #ccc;
@@ -1361,22 +1365,22 @@
 		color: #ccc !important;
 	}
 	[dir] .vi-select-dropdown__item.hover, [dir] .vi-select-dropdown__item:hover {
-		background: #101010;
+		background-color: #101010;
 	}
 	[dir] .vi-select-dropdown, [dir] .tiktokads-inspiration-card-content-logo-img {
-		background: #111;
+		background-color: #111;
 	}
 	[dir] .img_3k0V6 {
 		filter: invert(.935) hue-rotate(180deg);
 	}
 	[dir] .tiktok-ads-blog-swiper-card .card-detail .article-tags .tag-item:not(:last-child):after, [dir] .tag-item_39iVc:not(:last-child):after {
-		background: #676767;
+		background-color: #676767;
 	}
 	[dir] .contact-head {
-		background: #18191a !important;
+		background-color: #18191a !important;
 	}
 	[dir] .vi-dialog {
-		background: #111;
+		background-color: #111;
 	}
 	.contact-body-item-head-title {
 		color: #ccccccd9 !important;
@@ -1397,10 +1401,10 @@
 		border-color: #3a3c3e;
 	}
 	[dir] #app {
-		background: #18191a;
+		background-color: #18191a;
 	}
 	[dir] .index-content .grid-cards .box-card:hover, [dir] .index-content .grid-category .box-card, [dir] .index-content .popular-questions .question-item, [dir] .page-content.article-page .sidebar-wrapper, [dir] .page-content.article-page .article-container, [dir] .vi-dropdown-menu__item--divided:before, [dir] .vi-menu, [dir] .vi-menu--horizontal>.vi-menu-item:not(.is-disabled):focus, [dir] .vi-menu--horizontal>.vi-menu-item:not(.is-disabled):hover, [dir] .vi-menu--horizontal>.vi-submenu .vi-submenu__title:hover, [dir] .page-content.search-page .search-article .article-item, [dir] .page-content.search-page .search-result .article-item {
-		background: #111;
+		background-color: #111;
 	}
 	.index-content .grid-cards .box-card:hover, .index-content .grid-cards .box-card.is-active .box-card-text, .index-content .grid-cards .box-card:hover .box-card-text, .sub-nav-list-item.complete:hover .sub-nav-name, .sub-nav-list-item .sub-nav-name.is-active {
 		color: #ccc;
@@ -1412,37 +1416,37 @@
 		color: #999;
 	}
 	[dir] .index-content .grid-cards .box-card.is-active {
-		background: #111;
+		background-color: #111;
 		color: #ccc;
 	}
-	[style="background: rgb(255, 255, 255); opacity: 1; border-bottom: 1px solid rgb(228, 233, 237); padding: 0px 45px;"], [style="background:rgba(255,255,255,1.1);opacity:1;border-bottom:1px solid rgba(228,233,237,1);padding:0 45px;"] {
-		background: #111 !important;
+	[style*="background: rgb(255, 255, 255); border-bottom: 1px solid rgb(228, 233, 237)"], [style*="background:rgba(255,255,255,1.1);border-bottom:1px solid rgba(228,233,237,1)"] {
+		background-color: #111 !important;
 		border-color: #24292d !important;
 	}
 	[dir] .sub-nav-list-item .sub-nav-expand {
-		background: #111;
+		background-color: #111;
 		border-color: #24292d;
 	}
 	.sub-nav-list-item .sub-nav-name, .vi-input .vi-input__clear {
 		color: #666;
 	}
 	[dir] .page-content.article-page .sidebar-wrapper .vi-submenu:not(:last-child):after {
-		background: #2d2f31;
+		background-color: #2d2f31;
 	}
 	[dir] .page-content.article-page .sidebar-wrapper .sub-menu-item.is-active, [dir] .page-content.article-page .sidebar-wrapper .sub-menu-item:focus {
-		background: #10181f;
+		background-color: #10181f;
 	}
 	[dir] .vi-message, [dir] .vi-message--error, [dir] .vi-message--info, [dir] .vi-message--success, [dir] .vi-message--warning, [dir] .page-content.article-page .article-content-wrapper .content-wrapper, [dir] .page-content.article-page .article-content-wrapper .article-catalog-container .catalog-item-container .catalog-item.active-item:before, .tiktok-1k0nvns-DivPushPermissionContainer, .tiktok-agf4qz-FormReport {
-		background: #111;
+		background-color: #111;
 	}
 	.vi-message, .page-content.article-page .article-content-wrapper .article-catalog-container .catalog-item-container .catalog-item, .vi-textarea__inner {
 		color: #ccc;
 	}
 	[dir] .index-content .footer {
-		background: #2e2f31;
+		background-color: #2e2f31;
 	}
 	[dir] .index-content .footer .footer-help {
-		background: #24292d;
+		background-color: #24292d;
 	}
 	.index-content .footer .footer-help {
 		color: #666;
@@ -1454,17 +1458,17 @@
 		border-color: #2b2b2b;
 	}
 	[dir] .vi-radio__inner, [dir] .vi-textarea__inner {
-		background: #111;
+		background-color: #111;
 		border-color: #3a3c3e;
 	}
 	.page-content.article-page .article-content-wrapper .feedback-content .feedback-success-title {
 		color: #fff;
 	}
 	._embed_video_card-info.new>a:hover {
-		background: #181818;
+		background-color: #181818;
 	}
 	.embed-popup {
-		background: #111;
+		background-color: #111;
 		color: #d8d3e8;
 	}
 	[class="icon-music"], [class="jsx-754397938 _embed_video_banner-comment"] {
@@ -1480,18 +1484,18 @@
 		background-color: #111;
 	}
 	.conversation-list-wrapper .skeleton-container .skeleton-text-wrapper .skeleton-preview, .conversation-list-wrapper .skeleton-container .skeleton-text-wrapper .skeleton-nickname, .conversation-list-wrapper .skeleton-container .skeleton-avatar, [class*="DivDiscoverSkeletonItem"] {
-		background: #121212;
+		background-color: #121212;
 	}
 	.discover-list-skeleton .skeleton-item {
-		background: #121212 !important;
+		background-color: #121212 !important;
 	}
 	.tiktok-1caqqmi-Button-FollowButtonContainer {
-		background: #111;
+		background-color: #111;
 		border-color: rgba(216, 211, 232, .12);
 		color: #d8d3e8;
 	}
 	.tiktok-1caqqmi-Button-FollowButtonContainer:hover {
-		background: #181818;
+		background-color: #181818;
 		border-color: #303133;
 	}
 	.tiktok-1ix7c61-DivPushPermissionSubtitle {
@@ -1502,7 +1506,7 @@
 		border-color: #303133;
 	}
 	.tiktok-xvo16a-Button-StyledButton {
-		background: #111;
+		background-color: #111;
 		color: #d8d3e8;
 		border-color: rgba(216, 211, 232, .12);
 	}
@@ -1528,13 +1532,13 @@
 		border-color: rgba(216, 211, 232, .12);
 	}
 	.tiktok-1pfk444-LabelRadio::after {
-		background: rgba(216, 211, 232, .12);
+		background-color: rgba(216, 211, 232, .12);
 	}
 	.tiktok-1iqn86a-DivReportDesc {
 		color: rgba(216, 211, 232, .5);
 	}
 	.tiktok-jhh80q-Button-StyledButton, .tiktok-qfh575-Button-FollowButtonContainer {
-		background: #111;
+		background-color: #111;
 		border-color: rgba(216, 211, 232, .12);
 		color: rgba(216, 211, 232);
 	}
@@ -1543,7 +1547,7 @@
 		background-color: #181818;
 	}
 	.tiktok-iclgvf-Button-FollowButtonContainer {
-		background: #111;
+		background-color: #111;
 	}
 	.tiktok-1nydqud-ButtonForm:disabled {
 		border-color: rgba(216, 211, 232, .12);
@@ -1553,31 +1557,31 @@
 		border-color: rgba(216, 211, 232, .12) !important;
 	}
 	.conversation-list-item-wrapper:hover {
-		background: rgba(216, 211, 232, .03);
+		background-color: rgba(216, 211, 232, .03);
 	}
 	.tiktok-zxo5ey-ButtonGetAppText:hover {
-		background: rgba(216, 211, 232, .03);
+		background-color: rgba(216, 211, 232, .03);
 		border-color: rgba(216, 211, 232, .2);
 	}
 	.tiktok-zxo5ey-ButtonGetAppText {
 		color: rgba(216, 211, 232, .75);
-		background: #111;
+		background-color: #111;
 		border-color: rgba(216, 211, 232, .12);
 	}
 	.tiktok-11x21cy-Button-FollowButton {
-		background: #111;
+		background-color: #111;
 		color: rgba(216, 211, 232);
 		border-color: rgba(216, 211, 232, .12);
 	}
 	.tiktok-11x21cy-Button-FollowButton:hover {
-		background: #181818;
+		background-color: #181818;
 		border-color: #303133;
 	}
 	.live-sdk-suggest::after, .live-sdk-suggest::before {
 		background-color: rgba(216, 211, 232, .12);
 	}
 	.app-promotion > span:hover {
-		background: #121212 !important;
+		background-color: #121212 !important;
 	}
 	.side-bar .user-list-skeleton:before, .side-bar .user-list::before, .side-bar .discover-list-container::before, .side-bar .bottom-wrapper::before {
 		background-color: rgba(216, 211, 232, .12) !important;
@@ -1592,17 +1596,17 @@
 		background: linear-gradient(90deg, rgba(22,24,35,0) 0%,rgba(216, 211, 232, .06) 50.52%,rgba(22,24,35,0) 100%) !important;
 	}
 	.keyboard-shortcut-container {
-		background: #111 !important;
+		background-color: #111 !important;
 		border-color: rgba(216, 211, 232, .12) !important;
 	}
 	.keyboard-shortcut-container .keyboard-shortcut-content .keyboard-shortcut-content-item {
 		color: #fff !important;
 	}
 	.push-permission {
-		background: #111 !important;
+		background-color: #111 !important;
 	}
 	.logout-line {
-		background: rgba(216, 211, 232, .12) !important;
+		background-color: rgba(216, 211, 232, .12) !important;
 	}
 	.tiktok-web-header-13pzv .login-title-1Zd0- {
 		color: #fff;
@@ -1621,11 +1625,11 @@
 		background-color: rgba(216, 211, 232, .06);
 	}
 	.login-button-31D24.line-ErmhG:not(.disabled-11rqp):hover {
-		background: rgba(216, 211, 232, .03);
+		background-color: rgba(216, 211, 232, .03);
 		border-color: rgba(216, 211, 232, .2);
 	}
 	.login-button-31D24.line-ErmhG.disable-fEJEn {
-		background: #111 !important;
+		background-color: #111 !important;
 		border-color: rgba(216, 211, 232, .12) !important;
 		color: rgba(216, 211, 232, .34);
 	}
@@ -1638,24 +1642,24 @@
 		border-color: rgba(216, 211, 232, .06);
 	}
 	.list-container-2f5zg {
-		background: #111;
+		background-color: #111;
 		border-color: rgba(216, 211, 232, .06);
 	}
 	.search-3t1_J { 
-		background: #111;
+		background-color: #111;
 		border-color: rgba(216, 211, 232, .12);
 	}
 	.list-container-2f5zg .list-item-MOAq4.selected-1DVFu, .list-container-2f5zg .list-item-MOAq4:hover {
 		background-color: rgba(216, 211, 232, .03);
 	}
 	.rUVoM, .fiQtnm, .chYkws, .tiktok-1tccpi0-DivScrollContainer-StyledScroll {
-		background: #111;
+		background-color: #111;
 	}
 	.iIMDNr {
 		color: #ddd;
 	}
 	.eENrWw {
-		background: #141516;
+		background-color: #141516;
 		color: #666;
 	}
 	.hBTOdR {
@@ -1692,7 +1696,7 @@
 		backdrop-filter: blur(1rem);
 		box-shadow: 0px 1px 1px #4cbbb933;
 	}
-	.tiktok-4jy5wt-DivScrollBarThumb, .tiktok-ouggfm-SpanIconWrapper, .tiktok-q3e59-PCopyLinkText, .tiktok-yfmapq-SpanIconWrapper, .tiktok-1vwgyq9-DivInputAreaContainer, .tiktok-1jxhpnd-DivContainer {
+	.tiktok-4jy5wt-DivScrollBarThumb, .tiktok-ouggfm-SpanIconWrapper, .tiktok-q3e59-PCopyLinkText, .tiktok-yfmapq-SpanIconWrapper, .tiktok-1vwgyq9-DivInputAreaContainer, .tiktok-1jxhpnd-DivContainer:not([class*="DivVideoWrapper"] > .tiktok-1jxhpnd-DivContainer) {
 		background-color: rgba(216, 211, 232, .06);
 	}
 	.tiktok-1cc8sge-H2MainNavText, .tiktok-arsb3q-H4UserTitle, .tiktok-vjisbg-H2RecommendTitle, .tiktok-iyi993-ButtonCopyLink, .tiktok-ybf3r7-DivInputAreaContainer, .tiktok-1pf8c1-DivTab, .tiktok-dehclc-DivKeyboardShortcutTitle, .tiktok-7799n-DivGroupContainer, .tiktok-y7srm0-SpanPrimary {
@@ -1708,7 +1712,7 @@
 		background-color: rgba(216, 211, 232, .03);
 	}
 	.tiktok-1lh5noh-DivVideoCardContainer {
-		background: #222;
+		background-color: #222;
 	}
 	svg.tiktok-812w79-SvgIcon.e1wg6xq71, svg.tiktok-wzk98w-SvgIcon.e1wg6xq71 {
 		filter: invert(1);
@@ -1724,7 +1728,7 @@
 		border-color: rgba(216, 211, 232, .12);
 	}
 	.tiktok-46wese-DivCommentListContainer {
-		background: #181818;
+		background-color: #181818;
 		border-color: rgba(216, 211, 232, .12);
 	}
 	.tiktok-1pmlpmb-DivInputAreaContainer {
@@ -1811,7 +1815,7 @@
 		background-color: #121212;
 	}
 	.tiktok-1tsu1xm-SpanGroupItem:hover {
-		background: rgba(255, 255, 255, .12);
+		background-color: rgba(255, 255, 255, .12);
 	}
 	.tiktok-thiumz-DivSearchFormContainer div:not(.tiktok-coj13k-DivIconWrapper) {
 		background-color: #111;
@@ -1958,7 +1962,7 @@
 	.desktop-container.full-container {
 		background-color: #181818;
 	}
-	[class*="DivScrollContainer-StyledScroll"], [class*="DivLiveDiscoverPage"], [class*="DivProfileContainer"], [class*="DivChatRoomContainer"], [class*="DivEmojiPanelContainer"] {
+	[class*="DivScrollContainer-StyledScroll"], [class*="DivLiveDiscoverPage"], [class*="DivProfileContainer"]:not([data-e2e="live-player"] [class*="DivProfileContainer"]), [class*="DivChatRoomContainer"], [class*="DivEmojiPanelContainer"], [class*="DivEmojiSuggestionContainer"] {
 		background-color: #111;
 	}
 	.tiktok-wy7mh8-Button-StyledFollowButton, [class*="IActionButton"] {
@@ -1970,23 +1974,32 @@
 		border-color: #303133;
 		background-color: #181818;
 	}
-	[class*="SpanCopyright"], [class*="SpanCopyright"]:hover, [class*="SpanCopyright"]:active, [class*="DivLiveAuthorName"], [class*="DivBroadcastText"], [class*="SpanEnterMessageContent"] {
+	[data-e2e="comment-post"] {
+		color: rgba(216, 211, 232, .34);
+	}
+	.tiktok-1w3780e-DivPostButton {
+    	color: rgb(254, 44, 85);
+	}
+	.tiktok-1g27b7n-H2MainNavText {
+		color: rgb(254, 44, 85) !important;
+	}
+	[class*="SpanCopyright"], [class*="SpanCopyright"]:hover, [class*="SpanCopyright"]:active, [class*="DivLiveAuthorName"], [class*="DivBroadcastText"], [class*="SpanEnterMessageContent"], [data-e2e="comment-reply-1"], [data-e2e="view-more-1"], [data-e2e="comment-reply-2"], [data-e2e="inbox-content"] {
 		color: rgba(216, 211, 232, .5)
 	}
-	[class*="DivSideNavTitle"], [class*="DivSideNavNickName"], [class*="H2UserStatsDesc"], [class*="H3Nickname"], [class*="H1Nickname"] {
+	[class*="DivSideNavTitle"], [class*="DivSideNavNickName"], [class*="H2UserStatsDesc"], [class*="H3Nickname"], [class*="H1Nickname"], [class*="DivItemContainer"] [class*="DivAuthor"], [class*="DivItemContainer"] [class*="DivOtherInfo"], [data-e2e="nav-discover-title"] {
 		color: rgba(216, 211, 232, .75)
 	}
-	[class*="H2LiveRecommendedListTitle"], [class*="SpanSideNavNickName"], [class*="DivSideNavPerson"], [class*="DivLiveTitle"], [class*="H2UserStatsText"], [class*="DivBroadcastTitle"], [class*="H2UniqueId"], [class*="DivPeopleContainer"], [class*="StyledTwoPerson"], [class*="SpanShareText"], [class*="DivGiftItem"], [class*="DivChatMessageContent"], [class*="SpanNickName"], [class*="DivChatRoomMessage-StyledSocialMessageItem"], [class*="DivInputAreaContainer"] {
+[class*="H2LiveRecommendedListTitle"], [class*="SpanSideNavNickName"], [class*="DivSideNavPerson"], [class*="DivLiveTitle"], [class*="H2UserStatsText"], [class*="DivBroadcastTitle"], [class*="H2UniqueId"], [class*="DivPeopleContainer"], [class*="StyledTwoPerson"], [class*="SpanShareText"], [class*="DivGiftItem"], [class*="DivChatMessageContent"], [class*="SpanNickName"], [class*="DivChatRoomMessage-StyledSocialMessageItem"], [class*="DivInputAreaContainer"], [class*="H2MainNavText"], [data-e2e="more-link"], [class*="DivHeadContent"], [class*="DivItemContainer"] [class*="DivTitle"], [class*="PVideoListTitle"], [class*="SpanChatRoomComment"], [class*="SpanLikeMessageComment"], [data-e2e="comment-text"] [class*="TextareaEditor"], [class*="DivChatRoomMessage"], [class*="ButtonActionItem"][disabled] {
 		color: rgb(216, 211, 232);
 	}
-	[class*="DivSideNavItem"]:hover {
+[class*="DivSideNavItem"]:hover, [class*="StyledTmpLink"]:active, [class*="ButtonActionItem"]:not([disabled]) span {
 		background-color: rgba(255, 255, 255, .06);
 	}
 	[class*="SpanChatMessageIsFriend"] {
 		background-color: rgba(255, 255, 255, .06);
 		color: rgb(216, 211, 232);
 	}
-	[class*="DivContainer"] {
+	[class*="DivContainer"]:not([class*="DivVideoWrapper"] > [class*="DivContainer"]) {
 		background-color: #111;
 		color: rgb(216, 211, 232);
 	}
@@ -1999,7 +2012,7 @@
 		color: rgba(216, 211, 232, .75);
 		border-color: rgba(216, 211, 232, .12);
 	}
-	[class*="AShareLink"]:hover {
+	[class*="AShareLink"]:hover, [class*="StyledTmpLink"]:hover:not([data-e2e="nav-discover-href"]) {
 		background-color: rgba(255, 255, 255, .03);
 	}
 	[class*="DivChatRoomHeader"] {
@@ -2013,7 +2026,7 @@
 	[class*="DivInputAreaContainer"]:not([class*="DivInputAreaContainer"] [class*="DivInputAreaContainer"]) {
 		background-color: rgba(255, 255, 255, .06);
 	}
-	[class*="DivSideNavChannel"], [class*="DivGiftRelatedContainer"] {
+	[class*="DivSideNavChannel"], [class*="DivGiftRelatedContainer"], [class*="DivLeftContainer"] [class*="DivAuthorContainer"], [class*="DivLeftContainer"] [class*="DivVideoInfoContainer"], [class*="DivCommentInputWrapper"], [class*="UlNavContainer"] {
 		border-color: rgba(255, 255, 255, .12);
 	}
 	[class*="StyledFlag"], [class*="DivEmojiButton"] svg {
@@ -2023,14 +2036,78 @@
 		color: #fff;
 		background-color: #111;
 	}
-	[class*="DivEmojiPanelContainer"] [class*="LiItem"]:hover {
+	[class*="DivEmojiPanelContainer"] [class*="LiItem"]:hover, [data-e2e="like-icon"], [data-e2e="comment-icon"], [data-e2e="share-icon"] {
 		background-color: rgba(216, 211, 232, .06);
 	}
 	.tiktok-1l3yes2-DivEmojiButton, [class*="DivEmojiButton"]:hover {
 		background-color: rgba(216, 211, 232, .12);
 	}
+	[data-e2e="like-icon"]:hover, [data-e2e="comment-icon"]:hover, [data-e2e="share-icon"]:hover {
+		background-color: rgba(216, 211, 232, .1) !important;
 	}
-
+	[data-e2e="like-icon"]:active, [data-e2e="comment-icon"]:active, [data-e2e="share-icon"]:active, [class*="ButtonActionItem"]:not([disabled]) span:hover {
+		background-color: rgba(216, 211, 232, .14) !important;
+	}
+	[class*="DivVideoCardContainer"] {
+		background-color: #333;
+	}
+	span[class*="SpanGroupItem"] {
+		background-color: #1f1f1f !important;
+	}
+	[data-e2e="modal-close-inner-button"] svg {
+		fill: rgba(216, 211, 232, .75) !important;
+	}
+	[data-e2e="video-music"] svg use, [data-e2e="browse-music"] svg use, [class*="Button-StyledEditButton"] svg path {
+		fill: #fff;
+	}
+	[data-e2e="user-report"] [class*="DivActionItem"] svg path {
+		fill: #fff;
+		stroke: #fff;
+	}
+	[class*="SpanBackTitle"], [class*="PCommentTitle"] {
+		color: #fff;
+	}
+	[class*="Button-StyledEditButton"], [class*="Button-StyledBtn"] {
+		color: rgb(216, 211, 232);
+		background-color: #111;
+		border-color: rgba(216, 211, 232,.12);
+	}
+	[class*="Button-StyledEditButton"]:hover, [class*="Button-StyledBtn"]:hover {
+		background-color: #181818;
+		border-color: #202124;
+	}
+	[class*="Button-StyledBtn"][disabled] {
+		color: rgba(216, 211, 232, .34);
+		background-color: rgba(216, 211, 232, .06);
+	}
+	[data-e2e][class*="DivContentContainer"] [class*="DivAvatarEditIcon"] {
+		background-color: #111;
+		border-color: #202124;
+	}
+	[data-e2e][class*="DivContentContainer"] {
+		background-color: #111;
+	}
+	[data-e2e][class*="DivContentContainer"] [class*="DivHeaderContainer"] {
+		border-color: rgba(216, 211, 232,.2);
+		color: rgb(216, 211, 232);
+	}
+	[data-e2e][class*="DivContentContainer"] [class*="StyledItemContainerWithLine"] {
+		border-color: rgba(216, 211, 232,.12);
+	}
+	[data-e2e][class*="DivContentContainer"] [class*="DivFooterContainer"], [class*="DivModalHeader"] {
+		border-color: rgba(216, 211, 232,.2);
+	}
+	[data-e2e][class*="DivContentContainer"] [class*="DivEditAreaContainer"] input, [data-e2e][class*="DivContentContainer"] [class*="DivEditAreaContainer"] textarea {
+		background-color: rgba(216, 211, 232, .06);
+		color: rgb(216, 211, 232);
+	}
+	[data-e2e][class*="DivContentContainer"] [class*="DivTextCount"] {
+		color: rgba(216, 211, 232, .75);
+	}
+	[data-e2e="user-page"] [class*="SpanLiked"] {
+		color: rgba(226, 226, 226, .5);
+	}
+}
 	@-moz-document domain("careers.tiktok.com") {
 	 .tiktok-header.transparent, .tiktok-header.transparent_with_border {
 		background: inherit !important;
@@ -2048,14 +2125,14 @@
 	}
 	body .atsx-btn-primary:hover {
 		color: #fff;
-		background: #ff7792;
+		background-color: #ff7792;
 		border-color: #ff7792;
 	}
 	.atsx-input-affix-wrapper, .sofiaBold, .rightBlock__2ZGFh .listTitle__B3GFq, .positionList__14wa3 .positionItem .positionItem-title, .positionList__14wa3 .positionItem-subTitle, div.optionBlock__1wRP0 .optionTitle__3DM3c, .atsx-tree li .atsx-tree-node-content-wrapper, .atsx-tree-checkbox, .atsx-message, .jobDetail__1UFk5 .job-header, .jobDetail__1UFk5 .block-title, .login__I95KG .headerToggle-item.headerToggle-active, .login__I95KG .headerToggle-item:hover {
 		color: #d8d3e8;
 	}
 	.atsx-input {
-		background: #111;
+		background-color: #111;
 		color: #d8d3e8;
 	}
 	.border__3ZhOs {
@@ -2066,7 +2143,7 @@
 		color: #d8d3e8;
 	}
 	.atsx-tree-checkbox-inner {
-		background: #111;
+		background-color: #111;
 		border-color: #7f848c;
 	}
 	.atsx-tree-checkbox-checked .atsx-tree-checkbox-inner:after {
@@ -2076,10 +2153,10 @@
 		color: #fe2c55 !important;
 	}
 	::selection {
-		background: #212326;
+		background-color: #212326;
 	}
 	.fixedHeader__GwlOy, div.optionFilter__1M5Xo .atsx-tree-treenode-switcher-close:hover .atsx-tree-checkbox-inner {
-		background: #111;
+		background-color: #111;
 	}
 	.atsx-input-affix-wrapper .atsx-input-prefix, .atsx-input-affix-wrapper .atsx-input-suffix, .shareLink__3vO1R .shareLink-icon svg {
 		color: #6c737b;
@@ -2109,6 +2186,9 @@
 		color: rgba(255, 255, 255, .45);
 	}
 	.blog-list-container__31mEl .blog-item__1YuEf {
-		background: #1b1b1b;
+		background-color: #1b1b1b;
 	}
+	.conversation-list-wrapper .conversation-list-header .conversation-list-setting-icon {
+		filter: invert(1) hue-rotate(180deg);
 	}
+}
