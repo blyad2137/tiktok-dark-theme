@@ -1,4 +1,4 @@
-<p align="center"><a href="https://github.com/blyad2137/tiktok-dark-theme"><img src="https://i.imgur.com/SKFGZft.png" style="width: 20rem;"></img></a></p>
+<p align="center"><a href="https://userstyles.world/style/251/tiktok-dark-theme"><img src="https://i.imgur.com/SKFGZft.png" style="width: 20rem;"></img></a></p>
 
 <div id="preview">
   <h2>🖼 Preview</h2>
